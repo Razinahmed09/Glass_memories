@@ -14646,4 +14646,49 @@ p.checkout-coupon input[type=text]:focus {
   margin-bottom: 15px;
 }
 
+
+
+@media (max-width: 620px) {
+  .tp-footer-logo a{
+    padding: 8px;
+    font-size: 25px;
+  }
+}
+@media (max-width: 575px) {
+  .tp-header-height {
+    height: auto !important;
+  }
+  .tp-slider-text p {
+    line-height: 20px;
+  }
+  .tp-about-area, .money_back_section, .tp-product-area, .tp-service-area, .tp-testimonial-area, .tp-blog-area {
+    padding: 2rem 0;
+  }
+  .tp-footer-area {
+    padding-bottom: 1rem;
+  }
+  .tp-footer-area .mb-50 {
+    margin-bottom: 15px !important;
+  }
+  .tp-footer-logo a{
+    padding: 8px;
+    font-size: 25px;
+  }
+  .tp-about-title-box {
+      margin-bottom: 16px;
+  }
+  .tp-about-text span {
+    margin-bottom: 0;
+  }
+  .tp-slider-height {
+      height: 545px;
+  }
+}
+
+
+@media (max-width: 400px) { 
+  .tp-header-logo a {
+    font-size: 19px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
