@@ -1,0 +1,1543 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <title>Widox – Windows & Doors Company HTML Template</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Place favicon.ico in the root directory -->
+   <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+
+   <!-- CSS here -->
+   <link rel="stylesheet" href="assets/css/bootstrap.css">
+   <link rel="stylesheet" href="assets/css/animate.css">
+   <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+   <link rel="stylesheet" href="assets/css/slick.css">
+   <link rel="stylesheet" href="assets/css/magnific-popup.css">
+   <link rel="stylesheet" href="assets/css/flaticon_broadx.css">
+   <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
+   <link rel="stylesheet" href="assets/css/spacing.css">
+   <link rel="stylesheet" href="assets/css/custom-animation.css">
+   <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+   <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
+
+   <!-- mouse cursor drag start -->
+   <div class="mouseCursor cursor-outer d-none"></div>
+   <div class="mouseCursor cursor-inner cursor-small">
+      <span><img src="assets/img/icon/mouse-cursor.svg" alt=""></span>
+   </div>
+   <!-- mouse cursor drag end -->
+
+   <!-- pre loader area start -->
+   <div id="loading">
+      <div id="loading-center">
+         <div id="loading-center-absolute">
+            <div class="object" id="object_one"></div>
+            <div class="object" id="object_two"></div>
+            <div class="object" id="object_three"></div>
+            <div class="object" id="object_four"></div>
+         </div>
+      </div>
+   </div>
+   <!-- pre loader area end -->
+
+   <!-- back to top start -->
+   <div class="back-to-top-wrapper">
+      <button id="back_to_top" type="button" class="back-to-top-btn">
+         <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+               stroke-linejoin="round" />
+         </svg>
+      </button>
+   </div>
+   <!-- back to top end -->
+
+   <!-- search popup start -->
+   <div class="search__popup d-none">
+      <div class="container">
+         <div class="row">
+            <div class="col-xxl-12">
+               <div class="search__wrapper">
+                  <div class="search__top d-flex justify-content-between align-items-center">
+                     <div class="search__logo">
+                        <a href="index.html">
+                           <img src="assets/img/logo/logo-white.png" alt="">
+                        </a>
+                     </div>
+                     <div class="search__close">
+                        <button type="button" class="search__close-btn search-close-btn">
+                           <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                              <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                           </svg>
+                        </button>
+                     </div>
+                  </div>
+                  <div class="search__form">
+                     <form action="#">
+                        <div class="search__input">
+                           <input class="search-input-field" type="text" placeholder="Type here to search...">
+                           <span class="search-focus-border"></span>
+                           <button type="submit">
+                              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                    d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                 <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                           </button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- search popup end -->
+
+   <!-- Navbar will be inserted here -->
+   <div id="navbar-container"></div>
+   <script>
+      // Load navbar
+      fetch('navbar.html')
+         .then(response => response.text())
+         .then(data => {
+            document.getElementById('navbar-container').innerHTML = data;
+         });
+   </script>
+   <!-- End of Header -->
+
+   <main>
+
+      <!-- slider area start -->
+      <div class="tp-slider-area">
+         <div class="tp-slider-wrapper p-relative">
+            <div class="tp-slider-arrow-wrap d-none d-xxl-block">
+               <div class="tp-slider-arrow-box">
+                  <button class="slider-prev">
+                     <span>
+                        <i class="fa-regular fa-arrow-left-long"></i>
+                     </span>
+                  </button>
+                  <button class="slider-next">
+                     <span>
+                        <i class="fa-regular fa-arrow-right-long"></i>
+                     </span>
+                  </button>
+               </div>
+            </div>
+            <div class="swiper-container tp-slider-active">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <div class="tp-slider-height tp-slider-overlay p-relative">
+                        <div class="tp-slider-box">
+                           <div class="tp-slider-bg" data-background="assets/img/slider/hero.jpg"></div>
+                           <div class="container">
+                              <div class="row">
+                                 <div class="col-xxxl-8 col-xxl-7 col-xl-7 col-lg-8 col-md-10">
+                                    <div class="tp-slider-content z-index">
+                                       <div class="tp-slider-title-box mb-30">
+                                          <h4 class="tp-slider-subtitle">Personalized Glass Blocks — Where Art Meets
+                                             Emotion.</h4>
+                                          <h1 class="tp-slider-title ">Custom Glass Blocks Designed to <br>
+                                             <span class="play-button">
+                                                <a class="popup-video"
+                                                   href="https://www.youtube.com/watch?v=vgqG1yzR8z0">
+                                                   <i class="fa-sharp fa-solid fa-play"></i>
+                                                </a>
+                                             </span>
+                                             Capture Life’s Special Moments
+                                          </h1>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tp-slider-text-wrap-box">
+                              <div class="tp-slider-text-wrap">
+                                 <div class="tp-slider-text">
+                                    <p>Our custom glass blocks turn photos, logos, and messages into elegant keepsakes —
+                                       perfect for weddings, memorials, and special occasions. Durable, striking, and
+                                       made to order.</p>
+                                    <a class="tp-btn-theme" href="javascript:;">
+                                       <span>Get quote now</span>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="tp-slider-height tp-slider-overlay p-relative">
+                        <div class="tp-slider-box">
+                           <div class="tp-slider-bg" data-background="assets/img/slider/banner2.jpg"></div>
+                           <div class="container">
+                              <div class="row">
+                                 <div class="col-xxxl-8 col-xxl-7 col-xl-7 col-lg-8 col-md-10">
+                                    <div class="tp-slider-content z-index">
+                                       <div class="tp-slider-title-box mb-30">
+                                          <h4 class="tp-slider-subtitle">Personalized Glass Blocks — Where Art Meets
+                                             Emotion.</h4>
+                                          <h1 class="tp-slider-title">Transform Photos and Designs into <br>
+                                             <span class="play-button">
+                                                <a class="popup-video"
+                                                   href="https://www.youtube.com/watch?v=vgqG1yzR8z0">
+                                                   <i class="fa-sharp fa-solid fa-play"></i>
+                                                </a>
+                                             </span>
+                                             Timeless Glass Creations
+                                          </h1>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tp-slider-text-wrap-box">
+                              <div class="tp-slider-text-wrap">
+                                 <div class="tp-slider-text">
+                                    <p>Transform photos and designs into timeless glass creations with our
+                                       custom-crafted glass blocks. Each piece is made to order, blending durability
+                                       with elegance to create a lasting keepsake perfect for gifts, décor, or special
+                                       occasions.</p>
+                                    <a class="tp-btn-theme" href="javascript:;">
+                                       <span>Get quote now</span>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="tp-slider-height tp-slider-overlay p-relative">
+                        <div class="tp-slider-box">
+                           <div class="tp-slider-bg" data-background="assets/img/slider/hero2.jpg"></div>
+                           <div class="container">
+                              <div class="row">
+                                 <div class="col-xxxl-8 col-xxl-7 col-xl-7 col-lg-8 col-md-10">
+                                    <div class="tp-slider-content z-index">
+                                       <div class="tp-slider-title-box mb-30">
+                                          <h4 class="tp-slider-subtitle">Personalized Glass Blocks — Where Art Meets
+                                             Emotion.</h4>
+                                          <h1 class="tp-slider-title">Bespoke Glass Blocks Crafted with <br>
+                                             <span class="play-button">
+                                                <a class="popup-video"
+                                                   href="https://www.youtube.com/watch?v=vgqG1yzR8z0">
+                                                   <i class="fa-sharp fa-solid fa-play"></i>
+                                                </a>
+                                             </span>
+                                             Your Personal Touch
+                                          </h1>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tp-slider-text-wrap-box">
+                              <div class="tp-slider-text-wrap">
+                                 <div class="tp-slider-text">
+                                    <p>Our bespoke glass blocks are crafted with your personal touch, turning photos,
+                                       messages, and designs into unique keepsakes. Perfect for gifting or décor, each
+                                       block reflects elegance, durability, and individuality.</p>
+                                    <a class="tp-btn-theme" href="javascript:;">
+                                       <span>Get quote now</span>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- slider area end -->
+
+
+
+
+      <!-- brand area start -->
+      <div class="tp-brand-area">
+         <div class="container">
+            <div class="tp-brand-ptb">
+               <div class="row">
+                  <div class="col-xl-12">
+                     <div class="tp-brand-slider-wrap">
+                        <div class="swiper-container tp-brand-active">
+                           <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                 <div class="tp-brand-item text-center">
+                                    <img src="assets/img/brand/thumb-1-1.png" alt="">
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div class="tp-brand-item text-center">
+                                    <img src="assets/img/brand/thumb-1-2.png" alt="">
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div class="tp-brand-item text-center">
+                                    <img src="assets/img/brand/thumb-1-3.png" alt="">
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div class="tp-brand-item text-center">
+                                    <img src="assets/img/brand/thumb-1-4.png" alt="">
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div class="tp-brand-item text-center">
+                                    <img src="assets/img/brand/thumb-1-5.png" alt="">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- brand area end -->
+
+      <!-- about area start -->
+      <div class="tp-about-area pt-120 ">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-xl-6 col-lg-6 order-1 order-lg-0">
+                  <div class="tp-about-thumb-box p-relative">
+                     <div class="tp-about-vectors">
+                        <div class="spinner">
+                           <div></div>
+                           <div></div>
+                           <div></div>
+                           <div></div>
+                           <div></div>
+                           <div></div>
+                        </div>
+                        <div class="spinner2">
+                           <div></div>
+                           <div></div>
+                           <div></div>
+                           <div></div>
+                           <div></div>
+                           <div></div>
+                        </div>
+                     </div>
+                     <div class="tp-about-main-thumb">
+                        <img src="assets/img/about/aboutGlass-2.jpg" alt="">
+                     </div>
+                     <div class="tp-about-thumb-sm">
+                        <img src="assets/img/about/glasssub.jpg" alt="">
+                     </div>
+                     <!-- <div class="tp-about-number">
+                        <span>1999</span>
+                     </div> -->
+                  </div>
+               </div>
+               <div class="col-xl-6 col-lg-6 order-0 order-lg-1 wow tpfadeRight" data-wow-duration=".9s"
+                  data-wow-delay=".5s">
+                  <div class="tp-about-right">
+                     <div class="tp-about-title-box mb-50">
+                        <span class="tp-section-subtitle">Trusted Glass Memories Company</span>
+                        <h4 class="tp-section-title">We Design & Create Quality Glass Blocks</h4>
+                     </div>
+                     <div class="tp-about-text mb-45">
+                        <span>Looking for ready-made glass blocks? Or need something custom?</span>
+                        <p>Glass Memories is a dedicated business that specializes in creating personalized decorative
+                           glass blocks. We provide high-quality, made-to-order pieces featuring photos, logos,
+                           messages, or artwork — perfect for gifts, home décor, memorials, and branding. Whether you’re
+                           celebrating a special moment or enhancing your space, we deliver timeless glass creations
+                           with artistic value and lasting beauty.</p>
+                     </div>
+                     <div class="tp-about-button-box d-wrap d-sm-flex align-items-center">
+                        <div class="tp-about-button">
+                           <a class="tp-btn-theme" href="javascript:;"><span>More About Us</span></a>
+                        </div>
+                        <div class="tp-about-contact">
+                           <a href="tel:1234567890">
+                              <span>
+                                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M17.3866 13.6282C16.9362 13.1592 16.3929 12.9084 15.8171 12.9084C15.246 12.9084 14.6981 13.1545 14.2291 13.6235L12.7619 15.0861C12.6412 15.0211 12.5204 14.9608 12.4043 14.9004C12.2372 14.8168 12.0793 14.7379 11.9447 14.6543C10.5703 13.7814 9.32123 12.6438 8.12327 11.1719C7.54286 10.4382 7.15283 9.82069 6.86959 9.19385C7.25034 8.8456 7.60323 8.48343 7.94683 8.13518C8.07684 8.00517 8.20685 7.87052 8.33686 7.74051C9.31194 6.76543 9.31194 5.50246 8.33686 4.52738L7.06925 3.25977C6.92531 3.11583 6.77673 2.96725 6.63743 2.81866C6.35884 2.53078 6.06631 2.23361 5.7645 1.95502C5.31411 1.50927 4.77549 1.27246 4.20901 1.27246C3.64254 1.27246 3.09463 1.50927 2.63031 1.95502C2.62566 1.95966 2.62566 1.95966 2.62102 1.96431L1.04232 3.55694C0.44798 4.15128 0.109023 4.87562 0.0347313 5.71605C-0.0767067 7.07188 0.322613 8.33485 0.629067 9.16134C1.38127 11.1904 2.50494 13.071 4.18115 15.0861C6.2149 17.5146 8.66189 19.4322 11.4571 20.7834C12.5251 21.2895 13.9506 21.8885 15.5432 21.9906C15.6407 21.9953 15.7428 21.9999 15.8357 21.9999C16.9083 21.9999 17.8091 21.6145 18.5149 20.8484C18.5195 20.8391 18.5288 20.8345 18.5334 20.8252C18.7749 20.5327 19.0535 20.268 19.346 19.9848C19.5457 19.7944 19.75 19.5947 19.9496 19.3858C20.4093 18.9075 20.6508 18.3503 20.6508 17.7792C20.6508 17.2035 20.4047 16.6509 19.9357 16.1866L17.3866 13.6282ZM19.0488 18.5175C19.0442 18.5175 19.0442 18.5221 19.0488 18.5175C18.8678 18.7125 18.682 18.889 18.4824 19.084C18.1805 19.3719 17.8741 19.6737 17.5862 20.0126C17.1172 20.5141 16.5647 20.7509 15.8404 20.7509C15.7707 20.7509 15.6964 20.7509 15.6268 20.7463C14.2477 20.658 12.9662 20.1194 12.005 19.6597C9.37695 18.3875 7.06925 16.5813 5.15159 14.2921C3.56824 12.3838 2.50958 10.6193 1.80845 8.72488C1.37663 7.56871 1.21876 6.66792 1.28841 5.8182C1.33484 5.27494 1.54379 4.82455 1.92918 4.43916L3.51252 2.85581C3.74004 2.64222 3.98149 2.52614 4.2183 2.52614C4.51082 2.52614 4.74763 2.70258 4.89621 2.85117C4.90086 2.85581 4.9055 2.86045 4.91014 2.8651C5.19338 3.12976 5.46269 3.40371 5.74593 3.69624C5.88987 3.84482 6.03845 3.99341 6.18704 4.14663L7.45464 5.41424C7.94683 5.90643 7.94683 6.36146 7.45464 6.85365C7.31999 6.9883 7.18998 7.12296 7.05532 7.25297C6.66529 7.65229 6.29383 8.02375 5.88987 8.38592C5.88058 8.39521 5.8713 8.39985 5.86665 8.40914C5.46733 8.80846 5.54162 9.19849 5.6252 9.46315C5.62985 9.47708 5.63449 9.49101 5.63913 9.50494C5.9688 10.3036 6.43313 11.0558 7.1389 11.9519L7.14355 11.9566C8.42508 13.5353 9.77627 14.7657 11.2668 15.7083C11.4571 15.8291 11.6521 15.9266 11.8379 16.0194C12.005 16.103 12.1629 16.1819 12.2976 16.2655C12.3161 16.2748 12.3347 16.2887 12.3533 16.298C12.5111 16.377 12.6597 16.4141 12.813 16.4141C13.1983 16.4141 13.4398 16.1727 13.5187 16.0937L15.1067 14.5057C15.2646 14.3479 15.5153 14.1575 15.8078 14.1575C16.0957 14.1575 16.3325 14.3386 16.4765 14.4964C16.4811 14.5011 16.4811 14.5011 16.4858 14.5057L19.0442 17.0642C19.5224 17.5378 19.5224 18.0253 19.0488 18.5175Z"
+                                       fill="black" />
+                                    <path
+                                       d="M11.889 5.23324C13.1055 5.43755 14.2106 6.01331 15.0929 6.89553C15.9751 7.77774 16.5462 8.88284 16.7551 10.0994C16.8062 10.4058 17.0709 10.6194 17.3727 10.6194C17.4098 10.6194 17.4423 10.6148 17.4795 10.6101C17.8231 10.5544 18.0506 10.2294 17.9949 9.88578C17.7442 8.41387 17.0477 7.07197 15.9844 6.00867C14.9211 4.94536 13.5792 4.24887 12.1072 3.99814C11.7636 3.94242 11.4433 4.16994 11.3829 4.5089C11.3225 4.84785 11.5454 5.17752 11.889 5.23324Z"
+                                       fill="black" />
+                                    <path
+                                       d="M21.974 9.70466C21.5607 7.28089 20.4185 5.07534 18.6633 3.32019C16.9082 1.56505 14.7026 0.422806 12.2789 0.0095565C11.9399 -0.0508058 11.6195 0.181357 11.5592 0.520314C11.5034 0.863915 11.731 1.1843 12.0746 1.24466C14.2383 1.61148 16.2117 2.63764 17.7811 4.20241C19.3505 5.77183 20.3721 7.74521 20.7389 9.90897C20.7899 10.2154 21.0546 10.429 21.3564 10.429C21.3936 10.429 21.4261 10.4244 21.4632 10.4197C21.8022 10.3686 22.0343 10.0436 21.974 9.70466Z"
+                                       fill="black" />
+                                 </svg>
+                              </span>
+                              (415) 555-98 76 44</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- about area end -->
+
+
+      <section class="money_back_section pt-100">
+         <div class="container">
+            <div class="features-grid">
+               <div class="feature-card">
+                  <div class="icon-wrapper">
+                     <div>
+                        <lord-icon src="https://cdn.lordicon.com/wrjtqsvf.json" trigger="loop" delay="1500"
+                           state="in-reveal"
+                           colors="primary:#17171c,secondary:#e5d1fa,tertiary:#c69cf4,quaternary:#e5d1fa">
+                        </lord-icon>
+                     </div>
+                  </div>
+                  <div class="feature-content">
+                     <h3 class="feature-title">Free Shipping</h3>
+                     <p class="feature-description">Free shipping over $100</p>
+                  </div>
+               </div>
+
+               <div class="feature-card">
+                  <div class="icon-wrapper">
+                     <lord-icon src="https://cdn.lordicon.com/gfpplxaf.json" trigger="loop" delay="1500"
+                        state="in-reveal"
+                        colors="primary:#17171c,secondary:#e5d1fa,tertiary:#e5d1fa,quaternary:#ffffff,quinary:#c69cf4">
+                     </lord-icon>
+                  </div>
+                  <div class="feature-content">
+                     <h3 class="feature-title">Payment Secure</h3>
+                     <p class="feature-description">Get 100% payment safe</p>
+                  </div>
+               </div>
+
+               <div class="feature-card">
+                  <div class="icon-wrapper">
+                     <lord-icon src="https://cdn.lordicon.com/vwgzpetl.json" trigger="loop" delay="1500"
+                        state="in-reveal" colors="primary:#17171c,secondary:#e5d1fa,tertiary:#e5d1fa">
+                     </lord-icon>
+                  </div>
+                  <div class="feature-content">
+                     <h3 class="feature-title">Support 24/7</h3>
+                     <p class="feature-description">Quality 24/7 support</p>
+                  </div>
+               </div>
+
+               <div class="feature-card">
+                  <div class="icon-wrapper">
+                     <lord-icon src="https://cdn.lordicon.com/hqkfqrrm.json" trigger="loop" delay="1500"
+                        state="in-reveal" colors="primary:#17171c,secondary:#e5d1fa,tertiary:#c69cf4">
+                     </lord-icon>
+                  </div>
+                  <div class="feature-content">
+                     <h3 class="feature-title">100% Money Back</h3>
+                     <p class="feature-description">Customers money back</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+      <!-- product area start -->
+      <div class="tp-product-area pt-105 pb-120 p-relative fix">
+         <div class="container custom-container-2">
+            <div class="row">
+               <div class="col-xl-12">
+                  <div class="tp-product-title-box text-center mb-50">
+                     <span class="tp-section-subtitle">Featured Glass Block Design</span>
+                     <h3 class="tp-section-title">Glass Block Collection</h3>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-xl-12">
+                     <div class="tp-prduct-wrapper">
+                        <div class="swiper-container tp-product-active">
+                           <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                 <div class="tp-product-item p-relative">
+                                    <div class="tp-product-thumb-box p-relative mb-25">
+                                       <a href="shop-details.html">
+                                          <img class="image-1" src="assets/img/product/product3.jpg" alt="">
+                                          <img class="image-2" src="assets/img/product/product.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <div class="tp-product-icon">
+                                       <button>
+                                          <i>
+                                             <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                   d="M16.892 8.16945C16.7401 7.96169 13.1215 3.08252 8.49992 3.08252C3.87833 3.08252 0.259582 7.96169 0.107877 8.16925C-0.035959 8.36634 -0.035959 8.63366 0.107877 8.83076C0.259582 9.03851 3.87833 13.9177 8.49992 13.9177C13.1215 13.9177 16.7401 9.03847 16.892 8.83092C17.036 8.63386 17.036 8.36634 16.892 8.16945ZM8.49992 12.7968C5.09563 12.7968 2.14715 9.5584 1.27434 8.49972C2.14602 7.44011 5.08832 4.20339 8.49992 4.20339C11.904 4.20339 14.8523 7.44123 15.7255 8.50048C14.8538 9.56006 11.9115 12.7968 8.49992 12.7968Z"
+                                                   fill="black" />
+                                                <path
+                                                   d="M8.50035 5.13721C6.64622 5.13721 5.1377 6.64573 5.1377 8.49986C5.1377 10.354 6.64622 11.8625 8.50035 11.8625C10.3545 11.8625 11.863 10.354 11.863 8.49986C11.863 6.64573 10.3545 5.13721 8.50035 5.13721ZM8.50035 10.7416C7.26419 10.7416 6.2586 9.73598 6.2586 8.49986C6.2586 7.26374 7.26423 6.25811 8.50035 6.25811C9.73647 6.25811 10.7421 7.26374 10.7421 8.49986C10.7421 9.73598 9.7365 10.7416 8.50035 10.7416Z"
+                                                   fill="black" />
+                                             </svg>
+                                          </i>
+                                          <span class="tp-product__tooltip tp-product__tooltip-right p-relative">Quick
+                                             View</span>
+                                       </button>
+                                       <button>
+                                          <i>
+                                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                   d="M13.2073 16.7012C12.9938 16.7014 12.7835 16.6492 12.5948 16.5493L9.08871 14.7066C9.06154 14.6921 9.03121 14.6845 9.0004 14.6845C8.96959 14.6845 8.93925 14.6921 8.91208 14.7066L5.40659 16.5493C5.18935 16.6637 4.94446 16.7149 4.69962 16.6973C4.45478 16.6796 4.21977 16.5938 4.02117 16.4495C3.82257 16.3052 3.66832 16.1082 3.57587 15.8808C3.48341 15.6534 3.45645 15.4047 3.49802 15.1628L4.1674 11.2596C4.17254 11.229 4.1701 11.1976 4.1603 11.1682C4.15049 11.1388 4.13361 11.1122 4.11115 11.0908L1.27727 8.32503C1.10133 8.15361 0.976905 7.93634 0.918109 7.69783C0.859313 7.45932 0.868493 7.20912 0.944609 6.97556C1.02072 6.742 1.16073 6.53443 1.34877 6.37636C1.53681 6.2183 1.76536 6.11606 2.00852 6.08122L5.92521 5.51254C5.95569 5.5081 5.98462 5.49631 6.00952 5.47818C6.03441 5.46004 6.05451 5.43612 6.06809 5.40847L7.81915 1.85629C7.92761 1.63608 8.09556 1.45064 8.30398 1.32096C8.5124 1.19129 8.75296 1.12256 8.99843 1.12256C9.2439 1.12256 9.48446 1.19129 9.69288 1.32096C9.9013 1.45064 10.0693 1.63608 10.1777 1.85629L11.9299 5.40735C11.9436 5.43491 11.9637 5.45876 11.9886 5.47687C12.0135 5.49499 12.0423 5.50684 12.0728 5.51141L15.9928 6.08066C16.2359 6.11569 16.4643 6.21804 16.6522 6.37613C16.8401 6.53422 16.98 6.74174 17.0561 6.97522C17.1322 7.20869 17.1414 7.4588 17.0827 7.69724C17.024 7.93569 16.8998 8.15296 16.7241 8.32447L13.8874 11.0886C13.865 11.11 13.8482 11.1366 13.8384 11.166C13.8286 11.1954 13.8261 11.2268 13.8311 11.2573L14.5005 15.1605C14.5327 15.3491 14.5234 15.5425 14.4733 15.7271C14.4232 15.9118 14.3334 16.0833 14.2103 16.2297C14.0872 16.3761 13.9336 16.494 13.7603 16.575C13.587 16.656 13.3981 16.6983 13.2068 16.699L13.2073 16.7012ZM9.0004 13.5591C9.21373 13.559 9.42384 13.6112 9.6124 13.711L13.1179 15.5532C13.1489 15.5709 13.1845 15.579 13.2202 15.5765C13.2558 15.574 13.2899 15.561 13.3181 15.5391C13.3476 15.5189 13.3705 15.4905 13.384 15.4574C13.3975 15.4243 13.401 15.388 13.3941 15.3529L12.7241 11.4492C12.6884 11.2391 12.7041 11.0234 12.7699 10.8207C12.8357 10.618 12.9497 10.4343 13.1021 10.2853L15.9388 7.52066C15.9642 7.49586 15.982 7.46448 15.9905 7.43005C15.9989 7.39562 15.9976 7.35952 15.9866 7.32583C15.9756 7.29213 15.9554 7.26218 15.9282 7.23936C15.9011 7.21653 15.8682 7.20174 15.8331 7.19666L11.9136 6.62685C11.7026 6.59629 11.5022 6.51482 11.3297 6.38948C11.1572 6.26413 11.0178 6.09868 10.9236 5.90741L9.16915 2.35579C9.15343 2.324 9.12915 2.29724 9.09903 2.27854C9.06891 2.25983 9.03416 2.24991 8.99871 2.24991C8.96325 2.24991 8.9285 2.25983 8.89839 2.27854C8.86827 2.29724 8.84398 2.324 8.82827 2.35579L7.07721 5.90628C6.98293 6.09762 6.84347 6.26312 6.67088 6.38847C6.49829 6.51382 6.29777 6.59525 6.08665 6.62572L2.16771 7.19666C2.13256 7.20163 2.09951 7.21637 2.07233 7.23921C2.04515 7.26204 2.02492 7.29205 2.01396 7.32582C2.003 7.35958 2.00174 7.39575 2.01033 7.4302C2.01891 7.46464 2.037 7.49599 2.06252 7.52066L4.89865 10.2853C5.05106 10.4343 5.16507 10.618 5.2309 10.8207C5.29674 11.0234 5.31244 11.2391 5.27665 11.4492L4.60671 15.3529C4.60063 15.388 4.60452 15.4241 4.61794 15.457C4.63135 15.49 4.65375 15.5185 4.68259 15.5394C4.71143 15.5603 4.74554 15.5726 4.78106 15.5751C4.81657 15.5775 4.85205 15.5699 4.88346 15.5532L8.3884 13.7104C8.57709 13.611 8.78714 13.5591 9.0004 13.5591Z"
+                                                   fill="black" />
+                                             </svg>
+                                          </i>
+                                          <span
+                                             class="tp-product__tooltip tp-product__tooltip-right p-relative">Rattings</span>
+                                       </button>
+                                       <button>
+                                          <i>
+                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                   d="M6.86634 10.2L5.33301 11.7333V2.66667C5.33301 2.26667 5.06634 2 4.66634 2C4.26634 2 3.99967 2.26667 3.99967 2.66667V11.7333L2.46634 10.2C2.19967 9.93333 1.79967 9.93333 1.53301 10.2C1.26634 10.4667 1.26634 10.8667 1.53301 11.1333L4.19967 13.8C4.26634 13.8667 4.33301 13.9333 4.39967 13.9333C4.46634 14 4.59967 14 4.66634 14C4.73301 14 4.86634 14 4.93301 13.9333C4.99967 13.9333 5.06634 13.8667 5.13301 13.8L7.79967 11.1333C8.06634 10.8667 8.06634 10.4667 7.79967 10.2C7.53301 9.93333 7.13301 9.93333 6.86634 10.2ZM14.4663 4.86667L11.7997 2.2C11.733 2.13333 11.6663 2.06667 11.5997 2.06667C11.533 2 11.3997 2 11.333 2C11.2663 2 11.133 2 11.0663 2.06667C10.9997 2.06667 10.933 2.13333 10.8663 2.2L8.19967 4.86667C7.93301 5.13333 7.93301 5.53333 8.19967 5.8C8.46634 6.06667 8.86634 6.06667 9.13301 5.8L10.6663 4.26667V13.3333C10.6663 13.7333 10.933 14 11.333 14C11.733 14 11.9997 13.7333 11.9997 13.3333V4.26667L13.533 5.8C13.7997 6.06667 14.1997 6.06667 14.4663 5.8C14.733 5.53333 14.733 5.13333 14.4663 4.86667Z"
+                                                   fill="black" />
+                                             </svg>
+                                          </i>
+                                          <span class="tp-product__tooltip tp-product__tooltip-right p-relative">Add
+                                             To
+                                             Cart</span>
+                                       </button>
+                                    </div>
+                                    <div class="tp-product-content text-center">
+                                       <h4 class="tp-product-title"><a href="javascript:void(0)" class="text-anim">
+                                             Product 1</a></h4>
+                                       <span>$22.00</span>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div class="tp-product-item p-relative">
+                                    <div class="tp-product-thumb-box p-relative mb-25">
+                                       <a href="shop-details.html">
+                                          <img class="image-1" src="assets/img/product/product4.jpg" alt="">
+                                          <img class="image-2" src="assets/img/product/product5.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <div class="tp-product-icon">
+                                       <button>
+                                          <i>
+                                             <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                   d="M16.892 8.16945C16.7401 7.96169 13.1215 3.08252 8.49992 3.08252C3.87833 3.08252 0.259582 7.96169 0.107877 8.16925C-0.035959 8.36634 -0.035959 8.63366 0.107877 8.83076C0.259582 9.03851 3.87833 13.9177 8.49992 13.9177C13.1215 13.9177 16.7401 9.03847 16.892 8.83092C17.036 8.63386 17.036 8.36634 16.892 8.16945ZM8.49992 12.7968C5.09563 12.7968 2.14715 9.5584 1.27434 8.49972C2.14602 7.44011 5.08832 4.20339 8.49992 4.20339C11.904 4.20339 14.8523 7.44123 15.7255 8.50048C14.8538 9.56006 11.9115 12.7968 8.49992 12.7968Z"
+                                                   fill="black" />
+                                                <path
+                                                   d="M8.50035 5.13721C6.64622 5.13721 5.1377 6.64573 5.1377 8.49986C5.1377 10.354 6.64622 11.8625 8.50035 11.8625C10.3545 11.8625 11.863 10.354 11.863 8.49986C11.863 6.64573 10.3545 5.13721 8.50035 5.13721ZM8.50035 10.7416C7.26419 10.7416 6.2586 9.73598 6.2586 8.49986C6.2586 7.26374 7.26423 6.25811 8.50035 6.25811C9.73647 6.25811 10.7421 7.26374 10.7421 8.49986C10.7421 9.73598 9.7365 10.7416 8.50035 10.7416Z"
+                                                   fill="black" />
+                                             </svg>
+                                          </i>
+                                          <span class="tp-product__tooltip tp-product__tooltip-right p-relative">Quick
+                                             View</span>
+                                       </button>
+                                       <button>
+                                          <i>
+                                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                   d="M13.2073 16.7012C12.9938 16.7014 12.7835 16.6492 12.5948 16.5493L9.08871 14.7066C9.06154 14.6921 9.03121 14.6845 9.0004 14.6845C8.96959 14.6845 8.93925 14.6921 8.91208 14.7066L5.40659 16.5493C5.18935 16.6637 4.94446 16.7149 4.69962 16.6973C4.45478 16.6796 4.21977 16.5938 4.02117 16.4495C3.82257 16.3052 3.66832 16.1082 3.57587 15.8808C3.48341 15.6534 3.45645 15.4047 3.49802 15.1628L4.1674 11.2596C4.17254 11.229 4.1701 11.1976 4.1603 11.1682C4.15049 11.1388 4.13361 11.1122 4.11115 11.0908L1.27727 8.32503C1.10133 8.15361 0.976905 7.93634 0.918109 7.69783C0.859313 7.45932 0.868493 7.20912 0.944609 6.97556C1.02072 6.742 1.16073 6.53443 1.34877 6.37636C1.53681 6.2183 1.76536 6.11606 2.00852 6.08122L5.92521 5.51254C5.95569 5.5081 5.98462 5.49631 6.00952 5.47818C6.03441 5.46004 6.05451 5.43612 6.06809 5.40847L7.81915 1.85629C7.92761 1.63608 8.09556 1.45064 8.30398 1.32096C8.5124 1.19129 8.75296 1.12256 8.99843 1.12256C9.2439 1.12256 9.48446 1.19129 9.69288 1.32096C9.9013 1.45064 10.0693 1.63608 10.1777 1.85629L11.9299 5.40735C11.9436 5.43491 11.9637 5.45876 11.9886 5.47687C12.0135 5.49499 12.0423 5.50684 12.0728 5.51141L15.9928 6.08066C16.2359 6.11569 16.4643 6.21804 16.6522 6.37613C16.8401 6.53422 16.98 6.74174 17.0561 6.97522C17.1322 7.20869 17.1414 7.4588 17.0827 7.69724C17.024 7.93569 16.8998 8.15296 16.7241 8.32447L13.8874 11.0886C13.865 11.11 13.8482 11.1366 13.8384 11.166C13.8286 11.1954 13.8261 11.2268 13.8311 11.2573L14.5005 15.1605C14.5327 15.3491 14.5234 15.5425 14.4733 15.7271C14.4232 15.9118 14.3334 16.0833 14.2103 16.2297C14.0872 16.3761 13.9336 16.494 13.7603 16.575C13.587 16.656 13.3981 16.6983 13.2068 16.699L13.2073 16.7012ZM9.0004 13.5591C9.21373 13.559 9.42384 13.6112 9.6124 13.711L13.1179 15.5532C13.1489 15.5709 13.1845 15.579 13.2202 15.5765C13.2558 15.574 13.2899 15.561 13.3181 15.5391C13.3476 15.5189 13.3705 15.4905 13.384 15.4574C13.3975 15.4243 13.401 15.388 13.3941 15.3529L12.7241 11.4492C12.6884 11.2391 12.7041 11.0234 12.7699 10.8207C12.8357 10.618 12.9497 10.4343 13.1021 10.2853L15.9388 7.52066C15.9642 7.49586 15.982 7.46448 15.9905 7.43005C15.9989 7.39562 15.9976 7.35952 15.9866 7.32583C15.9756 7.29213 15.9554 7.26218 15.9282 7.23936C15.9011 7.21653 15.8682 7.20174 15.8331 7.19666L11.9136 6.62685C11.7026 6.59629 11.5022 6.51482 11.3297 6.38948C11.1572 6.26413 11.0178 6.09868 10.9236 5.90741L9.16915 2.35579C9.15343 2.324 9.12915 2.29724 9.09903 2.27854C9.06891 2.25983 9.03416 2.24991 8.99871 2.24991C8.96325 2.24991 8.9285 2.25983 8.89839 2.27854C8.86827 2.29724 8.84398 2.324 8.82827 2.35579L7.07721 5.90628C6.98293 6.09762 6.84347 6.26312 6.67088 6.38847C6.49829 6.51382 6.29777 6.59525 6.08665 6.62572L2.16771 7.19666C2.13256 7.20163 2.09951 7.21637 2.07233 7.23921C2.04515 7.26204 2.02492 7.29205 2.01396 7.32582C2.003 7.35958 2.00174 7.39575 2.01033 7.4302C2.01891 7.46464 2.037 7.49599 2.06252 7.52066L4.89865 10.2853C5.05106 10.4343 5.16507 10.618 5.2309 10.8207C5.29674 11.0234 5.31244 11.2391 5.27665 11.4492L4.60671 15.3529C4.60063 15.388 4.60452 15.4241 4.61794 15.457C4.63135 15.49 4.65375 15.5185 4.68259 15.5394C4.71143 15.5603 4.74554 15.5726 4.78106 15.5751C4.81657 15.5775 4.85205 15.5699 4.88346 15.5532L8.3884 13.7104C8.57709 13.611 8.78714 13.5591 9.0004 13.5591Z"
+                                                   fill="black" />
+                                             </svg>
+                                          </i>
+                                          <span
+                                             class="tp-product__tooltip tp-product__tooltip-right p-relative">Rattings</span>
+                                       </button>
+                                       <button>
+                                          <i>
+                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                   d="M6.86634 10.2L5.33301 11.7333V2.66667C5.33301 2.26667 5.06634 2 4.66634 2C4.26634 2 3.99967 2.26667 3.99967 2.66667V11.7333L2.46634 10.2C2.19967 9.93333 1.79967 9.93333 1.53301 10.2C1.26634 10.4667 1.26634 10.8667 1.53301 11.1333L4.19967 13.8C4.26634 13.8667 4.33301 13.9333 4.39967 13.9333C4.46634 14 4.59967 14 4.66634 14C4.73301 14 4.86634 14 4.93301 13.9333C4.99967 13.9333 5.06634 13.8667 5.13301 13.8L7.79967 11.1333C8.06634 10.8667 8.06634 10.4667 7.79967 10.2C7.53301 9.93333 7.13301 9.93333 6.86634 10.2ZM14.4663 4.86667L11.7997 2.2C11.733 2.13333 11.6663 2.06667 11.5997 2.06667C11.533 2 11.3997 2 11.333 2C11.2663 2 11.133 2 11.0663 2.06667C10.9997 2.06667 10.933 2.13333 10.8663 2.2L8.19967 4.86667C7.93301 5.13333 7.93301 5.53333 8.19967 5.8C8.46634 6.06667 8.86634 6.06667 9.13301 5.8L10.6663 4.26667V13.3333C10.6663 13.7333 10.933 14 11.333 14C11.733 14 11.9997 13.7333 11.9997 13.3333V4.26667L13.533 5.8C13.7997 6.06667 14.1997 6.06667 14.4663 5.8C14.733 5.53333 14.733 5.13333 14.4663 4.86667Z"
+                                                   fill="black" />
+                                             </svg>
+                                          </i>
+                                          <span class="tp-product__tooltip tp-product__tooltip-right p-relative">Add
+                                             To
+                                             Cart</span>
+                                       </button>
+                                    </div>
+                                    <div class="tp-product-item-sale">
+                                       <span>Sale</span>
+                                    </div>
+                                    <div class="tp-product-content text-center">
+                                       <h4 class="tp-product-title"><a href="javascript:void(0)"
+                                             class="text-anim">Product 2
+                                          </a></h4>
+                                       <span>$40.00</span>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div class="tp-product-item p-relative">
+                                    <div class="tp-product-thumb-box p-relative mb-25">
+                                       <a href="shop-details.html">
+                                          <img class="image-1" src="assets/img/product/product6.jpg" alt="">
+                                          <img class="image-2" src="assets/img/product/product7.jpg" alt="">
+                                       </a>
+                                    </div>
+                                    <div class="tp-product-icon">
+                                       <button>
+                                          <i>
+                                             <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                   d="M16.892 8.16945C16.7401 7.96169 13.1215 3.08252 8.49992 3.08252C3.87833 3.08252 0.259582 7.96169 0.107877 8.16925C-0.035959 8.36634 -0.035959 8.63366 0.107877 8.83076C0.259582 9.03851 3.87833 13.9177 8.49992 13.9177C13.1215 13.9177 16.7401 9.03847 16.892 8.83092C17.036 8.63386 17.036 8.36634 16.892 8.16945ZM8.49992 12.7968C5.09563 12.7968 2.14715 9.5584 1.27434 8.49972C2.14602 7.44011 5.08832 4.20339 8.49992 4.20339C11.904 4.20339 14.8523 7.44123 15.7255 8.50048C14.8538 9.56006 11.9115 12.7968 8.49992 12.7968Z"
+                                                   fill="black" />
+                                                <path
+                                                   d="M8.50035 5.13721C6.64622 5.13721 5.1377 6.64573 5.1377 8.49986C5.1377 10.354 6.64622 11.8625 8.50035 11.8625C10.3545 11.8625 11.863 10.354 11.863 8.49986C11.863 6.64573 10.3545 5.13721 8.50035 5.13721ZM8.50035 10.7416C7.26419 10.7416 6.2586 9.73598 6.2586 8.49986C6.2586 7.26374 7.26423 6.25811 8.50035 6.25811C9.73647 6.25811 10.7421 7.26374 10.7421 8.49986C10.7421 9.73598 9.7365 10.7416 8.50035 10.7416Z"
+                                                   fill="black" />
+                                             </svg>
+                                          </i>
+                                          <span class="tp-product__tooltip tp-product__tooltip-right p-relative">Quick
+                                             View</span>
+                                       </button>
+                                       <button>
+                                          <i>
+                                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                   d="M13.2073 16.7012C12.9938 16.7014 12.7835 16.6492 12.5948 16.5493L9.08871 14.7066C9.06154 14.6921 9.03121 14.6845 9.0004 14.6845C8.96959 14.6845 8.93925 14.6921 8.91208 14.7066L5.40659 16.5493C5.18935 16.6637 4.94446 16.7149 4.69962 16.6973C4.45478 16.6796 4.21977 16.5938 4.02117 16.4495C3.82257 16.3052 3.66832 16.1082 3.57587 15.8808C3.48341 15.6534 3.45645 15.4047 3.49802 15.1628L4.1674 11.2596C4.17254 11.229 4.1701 11.1976 4.1603 11.1682C4.15049 11.1388 4.13361 11.1122 4.11115 11.0908L1.27727 8.32503C1.10133 8.15361 0.976905 7.93634 0.918109 7.69783C0.859313 7.45932 0.868493 7.20912 0.944609 6.97556C1.02072 6.742 1.16073 6.53443 1.34877 6.37636C1.53681 6.2183 1.76536 6.11606 2.00852 6.08122L5.92521 5.51254C5.95569 5.5081 5.98462 5.49631 6.00952 5.47818C6.03441 5.46004 6.05451 5.43612 6.06809 5.40847L7.81915 1.85629C7.92761 1.63608 8.09556 1.45064 8.30398 1.32096C8.5124 1.19129 8.75296 1.12256 8.99843 1.12256C9.2439 1.12256 9.48446 1.19129 9.69288 1.32096C9.9013 1.45064 10.0693 1.63608 10.1777 1.85629L11.9299 5.40735C11.9436 5.43491 11.9637 5.45876 11.9886 5.47687C12.0135 5.49499 12.0423 5.50684 12.0728 5.51141L15.9928 6.08066C16.2359 6.11569 16.4643 6.21804 16.6522 6.37613C16.8401 6.53422 16.98 6.74174 17.0561 6.97522C17.1322 7.20869 17.1414 7.4588 17.0827 7.69724C17.024 7.93569 16.8998 8.15296 16.7241 8.32447L13.8874 11.0886C13.865 11.11 13.8482 11.1366 13.8384 11.166C13.8286 11.1954 13.8261 11.2268 13.8311 11.2573L14.5005 15.1605C14.5327 15.3491 14.5234 15.5425 14.4733 15.7271C14.4232 15.9118 14.3334 16.0833 14.2103 16.2297C14.0872 16.3761 13.9336 16.494 13.7603 16.575C13.587 16.656 13.3981 16.6983 13.2068 16.699L13.2073 16.7012ZM9.0004 13.5591C9.21373 13.559 9.42384 13.6112 9.6124 13.711L13.1179 15.5532C13.1489 15.5709 13.1845 15.579 13.2202 15.5765C13.2558 15.574 13.2899 15.561 13.3181 15.5391C13.3476 15.5189 13.3705 15.4905 13.384 15.4574C13.3975 15.4243 13.401 15.388 13.3941 15.3529L12.7241 11.4492C12.6884 11.2391 12.7041 11.0234 12.7699 10.8207C12.8357 10.618 12.9497 10.4343 13.1021 10.2853L15.9388 7.52066C15.9642 7.49586 15.982 7.46448 15.9905 7.43005C15.9989 7.39562 15.9976 7.35952 15.9866 7.32583C15.9756 7.29213 15.9554 7.26218 15.9282 7.23936C15.9011 7.21653 15.8682 7.20174 15.8331 7.19666L11.9136 6.62685C11.7026 6.59629 11.5022 6.51482 11.3297 6.38948C11.1572 6.26413 11.0178 6.09868 10.9236 5.90741L9.16915 2.35579C9.15343 2.324 9.12915 2.29724 9.09903 2.27854C9.06891 2.25983 9.03416 2.24991 8.99871 2.24991C8.96325 2.24991 8.9285 2.25983 8.89839 2.27854C8.86827 2.29724 8.84398 2.324 8.82827 2.35579L7.07721 5.90628C6.98293 6.09762 6.84347 6.26312 6.67088 6.38847C6.49829 6.51382 6.29777 6.59525 6.08665 6.62572L2.16771 7.19666C2.13256 7.20163 2.09951 7.21637 2.07233 7.23921C2.04515 7.26204 2.02492 7.29205 2.01396 7.32582C2.003 7.35958 2.00174 7.39575 2.01033 7.4302C2.01891 7.46464 2.037 7.49599 2.06252 7.52066L4.89865 10.2853C5.05106 10.4343 5.16507 10.618 5.2309 10.8207C5.29674 11.0234 5.31244 11.2391 5.27665 11.4492L4.60671 15.3529C4.60063 15.388 4.60452 15.4241 4.61794 15.457C4.63135 15.49 4.65375 15.5185 4.68259 15.5394C4.71143 15.5603 4.74554 15.5726 4.78106 15.5751C4.81657 15.5775 4.85205 15.5699 4.88346 15.5532L8.3884 13.7104C8.57709 13.611 8.78714 13.5591 9.0004 13.5591Z"
+                                                   fill="black" />
+                                             </svg>
+                                          </i>
+                                          <span
+                                             class="tp-product__tooltip tp-product__tooltip-right p-relative">Rattings</span>
+                                       </button>
+                                       <button>
+                                          <i>
+                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                   d="M6.86634 10.2L5.33301 11.7333V2.66667C5.33301 2.26667 5.06634 2 4.66634 2C4.26634 2 3.99967 2.26667 3.99967 2.66667V11.7333L2.46634 10.2C2.19967 9.93333 1.79967 9.93333 1.53301 10.2C1.26634 10.4667 1.26634 10.8667 1.53301 11.1333L4.19967 13.8C4.26634 13.8667 4.33301 13.9333 4.39967 13.9333C4.46634 14 4.59967 14 4.66634 14C4.73301 14 4.86634 14 4.93301 13.9333C4.99967 13.9333 5.06634 13.8667 5.13301 13.8L7.79967 11.1333C8.06634 10.8667 8.06634 10.4667 7.79967 10.2C7.53301 9.93333 7.13301 9.93333 6.86634 10.2ZM14.4663 4.86667L11.7997 2.2C11.733 2.13333 11.6663 2.06667 11.5997 2.06667C11.533 2 11.3997 2 11.333 2C11.2663 2 11.133 2 11.0663 2.06667C10.9997 2.06667 10.933 2.13333 10.8663 2.2L8.19967 4.86667C7.93301 5.13333 7.93301 5.53333 8.19967 5.8C8.46634 6.06667 8.86634 6.06667 9.13301 5.8L10.6663 4.26667V13.3333C10.6663 13.7333 10.933 14 11.333 14C11.733 14 11.9997 13.7333 11.9997 13.3333V4.26667L13.533 5.8C13.7997 6.06667 14.1997 6.06667 14.4663 5.8C14.733 5.53333 14.733 5.13333 14.4663 4.86667Z"
+                                                   fill="black" />
+                                             </svg>
+                                          </i>
+                                          <span class="tp-product__tooltip tp-product__tooltip-right p-relative">Add
+                                             To
+                                             Cart</span>
+                                       </button>
+                                    </div>
+                                    <div class="tp-product-item-sale">
+                                       <span>Sale</span>
+                                    </div>
+                                    <div class="tp-product-content text-center">
+                                       <h4 class="tp-product-title"><a href="javascript:void(0)"
+                                             class="text-anim">Product 3</a></h4>
+                                       <span>$80.00</span>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div class="tp-product-item p-relative">
+                                    <div class="tp-product-thumb-box p-relative mb-25">
+                                       <a href="javascript:void(0)">
+                                          <img class="image-1" src="assets/img/product/product8.jpg" alt="">
+                                          <img class="image-2" src="assets/img/product/product12.jpeg" alt="">
+                                       </a>
+                                    </div>
+                                    <div class="tp-product-icon">
+                                       <button>
+                                          <i>
+                                             <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                   d="M16.892 8.16945C16.7401 7.96169 13.1215 3.08252 8.49992 3.08252C3.87833 3.08252 0.259582 7.96169 0.107877 8.16925C-0.035959 8.36634 -0.035959 8.63366 0.107877 8.83076C0.259582 9.03851 3.87833 13.9177 8.49992 13.9177C13.1215 13.9177 16.7401 9.03847 16.892 8.83092C17.036 8.63386 17.036 8.36634 16.892 8.16945ZM8.49992 12.7968C5.09563 12.7968 2.14715 9.5584 1.27434 8.49972C2.14602 7.44011 5.08832 4.20339 8.49992 4.20339C11.904 4.20339 14.8523 7.44123 15.7255 8.50048C14.8538 9.56006 11.9115 12.7968 8.49992 12.7968Z"
+                                                   fill="black" />
+                                                <path
+                                                   d="M8.50035 5.13721C6.64622 5.13721 5.1377 6.64573 5.1377 8.49986C5.1377 10.354 6.64622 11.8625 8.50035 11.8625C10.3545 11.8625 11.863 10.354 11.863 8.49986C11.863 6.64573 10.3545 5.13721 8.50035 5.13721ZM8.50035 10.7416C7.26419 10.7416 6.2586 9.73598 6.2586 8.49986C6.2586 7.26374 7.26423 6.25811 8.50035 6.25811C9.73647 6.25811 10.7421 7.26374 10.7421 8.49986C10.7421 9.73598 9.7365 10.7416 8.50035 10.7416Z"
+                                                   fill="black" />
+                                             </svg>
+                                          </i>
+                                          <span class="tp-product__tooltip tp-product__tooltip-right p-relative">Quick
+                                             View</span>
+                                       </button>
+                                       <button>
+                                          <i>
+                                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                   d="M13.2073 16.7012C12.9938 16.7014 12.7835 16.6492 12.5948 16.5493L9.08871 14.7066C9.06154 14.6921 9.03121 14.6845 9.0004 14.6845C8.96959 14.6845 8.93925 14.6921 8.91208 14.7066L5.40659 16.5493C5.18935 16.6637 4.94446 16.7149 4.69962 16.6973C4.45478 16.6796 4.21977 16.5938 4.02117 16.4495C3.82257 16.3052 3.66832 16.1082 3.57587 15.8808C3.48341 15.6534 3.45645 15.4047 3.49802 15.1628L4.1674 11.2596C4.17254 11.229 4.1701 11.1976 4.1603 11.1682C4.15049 11.1388 4.13361 11.1122 4.11115 11.0908L1.27727 8.32503C1.10133 8.15361 0.976905 7.93634 0.918109 7.69783C0.859313 7.45932 0.868493 7.20912 0.944609 6.97556C1.02072 6.742 1.16073 6.53443 1.34877 6.37636C1.53681 6.2183 1.76536 6.11606 2.00852 6.08122L5.92521 5.51254C5.95569 5.5081 5.98462 5.49631 6.00952 5.47818C6.03441 5.46004 6.05451 5.43612 6.06809 5.40847L7.81915 1.85629C7.92761 1.63608 8.09556 1.45064 8.30398 1.32096C8.5124 1.19129 8.75296 1.12256 8.99843 1.12256C9.2439 1.12256 9.48446 1.19129 9.69288 1.32096C9.9013 1.45064 10.0693 1.63608 10.1777 1.85629L11.9299 5.40735C11.9436 5.43491 11.9637 5.45876 11.9886 5.47687C12.0135 5.49499 12.0423 5.50684 12.0728 5.51141L15.9928 6.08066C16.2359 6.11569 16.4643 6.21804 16.6522 6.37613C16.8401 6.53422 16.98 6.74174 17.0561 6.97522C17.1322 7.20869 17.1414 7.4588 17.0827 7.69724C17.024 7.93569 16.8998 8.15296 16.7241 8.32447L13.8874 11.0886C13.865 11.11 13.8482 11.1366 13.8384 11.166C13.8286 11.1954 13.8261 11.2268 13.8311 11.2573L14.5005 15.1605C14.5327 15.3491 14.5234 15.5425 14.4733 15.7271C14.4232 15.9118 14.3334 16.0833 14.2103 16.2297C14.0872 16.3761 13.9336 16.494 13.7603 16.575C13.587 16.656 13.3981 16.6983 13.2068 16.699L13.2073 16.7012ZM9.0004 13.5591C9.21373 13.559 9.42384 13.6112 9.6124 13.711L13.1179 15.5532C13.1489 15.5709 13.1845 15.579 13.2202 15.5765C13.2558 15.574 13.2899 15.561 13.3181 15.5391C13.3476 15.5189 13.3705 15.4905 13.384 15.4574C13.3975 15.4243 13.401 15.388 13.3941 15.3529L12.7241 11.4492C12.6884 11.2391 12.7041 11.0234 12.7699 10.8207C12.8357 10.618 12.9497 10.4343 13.1021 10.2853L15.9388 7.52066C15.9642 7.49586 15.982 7.46448 15.9905 7.43005C15.9989 7.39562 15.9976 7.35952 15.9866 7.32583C15.9756 7.29213 15.9554 7.26218 15.9282 7.23936C15.9011 7.21653 15.8682 7.20174 15.8331 7.19666L11.9136 6.62685C11.7026 6.59629 11.5022 6.51482 11.3297 6.38948C11.1572 6.26413 11.0178 6.09868 10.9236 5.90741L9.16915 2.35579C9.15343 2.324 9.12915 2.29724 9.09903 2.27854C9.06891 2.25983 9.03416 2.24991 8.99871 2.24991C8.96325 2.24991 8.9285 2.25983 8.89839 2.27854C8.86827 2.29724 8.84398 2.324 8.82827 2.35579L7.07721 5.90628C6.98293 6.09762 6.84347 6.26312 6.67088 6.38847C6.49829 6.51382 6.29777 6.59525 6.08665 6.62572L2.16771 7.19666C2.13256 7.20163 2.09951 7.21637 2.07233 7.23921C2.04515 7.26204 2.02492 7.29205 2.01396 7.32582C2.003 7.35958 2.00174 7.39575 2.01033 7.4302C2.01891 7.46464 2.037 7.49599 2.06252 7.52066L4.89865 10.2853C5.05106 10.4343 5.16507 10.618 5.2309 10.8207C5.29674 11.0234 5.31244 11.2391 5.27665 11.4492L4.60671 15.3529C4.60063 15.388 4.60452 15.4241 4.61794 15.457C4.63135 15.49 4.65375 15.5185 4.68259 15.5394C4.71143 15.5603 4.74554 15.5726 4.78106 15.5751C4.81657 15.5775 4.85205 15.5699 4.88346 15.5532L8.3884 13.7104C8.57709 13.611 8.78714 13.5591 9.0004 13.5591Z"
+                                                   fill="black" />
+                                             </svg>
+                                          </i>
+                                          <span
+                                             class="tp-product__tooltip tp-product__tooltip-right p-relative">Rattings</span>
+                                       </button>
+                                       <button>
+                                          <i>
+                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                   d="M6.86634 10.2L5.33301 11.7333V2.66667C5.33301 2.26667 5.06634 2 4.66634 2C4.26634 2 3.99967 2.26667 3.99967 2.66667V11.7333L2.46634 10.2C2.19967 9.93333 1.79967 9.93333 1.53301 10.2C1.26634 10.4667 1.26634 10.8667 1.53301 11.1333L4.19967 13.8C4.26634 13.8667 4.33301 13.9333 4.39967 13.9333C4.46634 14 4.59967 14 4.66634 14C4.73301 14 4.86634 14 4.93301 13.9333C4.99967 13.9333 5.06634 13.8667 5.13301 13.8L7.79967 11.1333C8.06634 10.8667 8.06634 10.4667 7.79967 10.2C7.53301 9.93333 7.13301 9.93333 6.86634 10.2ZM14.4663 4.86667L11.7997 2.2C11.733 2.13333 11.6663 2.06667 11.5997 2.06667C11.533 2 11.3997 2 11.333 2C11.2663 2 11.133 2 11.0663 2.06667C10.9997 2.06667 10.933 2.13333 10.8663 2.2L8.19967 4.86667C7.93301 5.13333 7.93301 5.53333 8.19967 5.8C8.46634 6.06667 8.86634 6.06667 9.13301 5.8L10.6663 4.26667V13.3333C10.6663 13.7333 10.933 14 11.333 14C11.733 14 11.9997 13.7333 11.9997 13.3333V4.26667L13.533 5.8C13.7997 6.06667 14.1997 6.06667 14.4663 5.8C14.733 5.53333 14.733 5.13333 14.4663 4.86667Z"
+                                                   fill="black" />
+                                             </svg>
+                                          </i>
+                                          <span class="tp-product__tooltip tp-product__tooltip-right p-relative">Add
+                                             To
+                                             Cart</span>
+                                       </button>
+                                    </div>
+                                    <div class="tp-product-content text-center">
+                                       <h4 class="tp-product-title"><a href="javascript:void(0)"
+                                             class="text-anim">Product 4</a>
+                                       </h4>
+                                       <span>$28.00</span>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div class="tp-product-item p-relative">
+                                    <div class="tp-product-thumb-box p-relative mb-25">
+                                       <a href="javascript:void(0)">
+                                          <img class="image-1" src="assets/img/product/product10.jpeg" alt="">
+                                          <img class="image-2" src="assets/img/product/product11.jpeg" alt="">
+                                       </a>
+                                    </div>
+                                    <div class="tp-product-icon">
+                                       <button>
+                                          <i>
+                                             <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                   d="M16.892 8.16945C16.7401 7.96169 13.1215 3.08252 8.49992 3.08252C3.87833 3.08252 0.259582 7.96169 0.107877 8.16925C-0.035959 8.36634 -0.035959 8.63366 0.107877 8.83076C0.259582 9.03851 3.87833 13.9177 8.49992 13.9177C13.1215 13.9177 16.7401 9.03847 16.892 8.83092C17.036 8.63386 17.036 8.36634 16.892 8.16945ZM8.49992 12.7968C5.09563 12.7968 2.14715 9.5584 1.27434 8.49972C2.14602 7.44011 5.08832 4.20339 8.49992 4.20339C11.904 4.20339 14.8523 7.44123 15.7255 8.50048C14.8538 9.56006 11.9115 12.7968 8.49992 12.7968Z"
+                                                   fill="black" />
+                                                <path
+                                                   d="M8.50035 5.13721C6.64622 5.13721 5.1377 6.64573 5.1377 8.49986C5.1377 10.354 6.64622 11.8625 8.50035 11.8625C10.3545 11.8625 11.863 10.354 11.863 8.49986C11.863 6.64573 10.3545 5.13721 8.50035 5.13721ZM8.50035 10.7416C7.26419 10.7416 6.2586 9.73598 6.2586 8.49986C6.2586 7.26374 7.26423 6.25811 8.50035 6.25811C9.73647 6.25811 10.7421 7.26374 10.7421 8.49986C10.7421 9.73598 9.7365 10.7416 8.50035 10.7416Z"
+                                                   fill="black" />
+                                             </svg>
+                                          </i>
+                                          <span class="tp-product__tooltip tp-product__tooltip-right p-relative">Quick
+                                             View</span>
+                                       </button>
+                                       <button>
+                                          <i>
+                                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                   d="M13.2073 16.7012C12.9938 16.7014 12.7835 16.6492 12.5948 16.5493L9.08871 14.7066C9.06154 14.6921 9.03121 14.6845 9.0004 14.6845C8.96959 14.6845 8.93925 14.6921 8.91208 14.7066L5.40659 16.5493C5.18935 16.6637 4.94446 16.7149 4.69962 16.6973C4.45478 16.6796 4.21977 16.5938 4.02117 16.4495C3.82257 16.3052 3.66832 16.1082 3.57587 15.8808C3.48341 15.6534 3.45645 15.4047 3.49802 15.1628L4.1674 11.2596C4.17254 11.229 4.1701 11.1976 4.1603 11.1682C4.15049 11.1388 4.13361 11.1122 4.11115 11.0908L1.27727 8.32503C1.10133 8.15361 0.976905 7.93634 0.918109 7.69783C0.859313 7.45932 0.868493 7.20912 0.944609 6.97556C1.02072 6.742 1.16073 6.53443 1.34877 6.37636C1.53681 6.2183 1.76536 6.11606 2.00852 6.08122L5.92521 5.51254C5.95569 5.5081 5.98462 5.49631 6.00952 5.47818C6.03441 5.46004 6.05451 5.43612 6.06809 5.40847L7.81915 1.85629C7.92761 1.63608 8.09556 1.45064 8.30398 1.32096C8.5124 1.19129 8.75296 1.12256 8.99843 1.12256C9.2439 1.12256 9.48446 1.19129 9.69288 1.32096C9.9013 1.45064 10.0693 1.63608 10.1777 1.85629L11.9299 5.40735C11.9436 5.43491 11.9637 5.45876 11.9886 5.47687C12.0135 5.49499 12.0423 5.50684 12.0728 5.51141L15.9928 6.08066C16.2359 6.11569 16.4643 6.21804 16.6522 6.37613C16.8401 6.53422 16.98 6.74174 17.0561 6.97522C17.1322 7.20869 17.1414 7.4588 17.0827 7.69724C17.024 7.93569 16.8998 8.15296 16.7241 8.32447L13.8874 11.0886C13.865 11.11 13.8482 11.1366 13.8384 11.166C13.8286 11.1954 13.8261 11.2268 13.8311 11.2573L14.5005 15.1605C14.5327 15.3491 14.5234 15.5425 14.4733 15.7271C14.4232 15.9118 14.3334 16.0833 14.2103 16.2297C14.0872 16.3761 13.9336 16.494 13.7603 16.575C13.587 16.656 13.3981 16.6983 13.2068 16.699L13.2073 16.7012ZM9.0004 13.5591C9.21373 13.559 9.42384 13.6112 9.6124 13.711L13.1179 15.5532C13.1489 15.5709 13.1845 15.579 13.2202 15.5765C13.2558 15.574 13.2899 15.561 13.3181 15.5391C13.3476 15.5189 13.3705 15.4905 13.384 15.4574C13.3975 15.4243 13.401 15.388 13.3941 15.3529L12.7241 11.4492C12.6884 11.2391 12.7041 11.0234 12.7699 10.8207C12.8357 10.618 12.9497 10.4343 13.1021 10.2853L15.9388 7.52066C15.9642 7.49586 15.982 7.46448 15.9905 7.43005C15.9989 7.39562 15.9976 7.35952 15.9866 7.32583C15.9756 7.29213 15.9554 7.26218 15.9282 7.23936C15.9011 7.21653 15.8682 7.20174 15.8331 7.19666L11.9136 6.62685C11.7026 6.59629 11.5022 6.51482 11.3297 6.38948C11.1572 6.26413 11.0178 6.09868 10.9236 5.90741L9.16915 2.35579C9.15343 2.324 9.12915 2.29724 9.09903 2.27854C9.06891 2.25983 9.03416 2.24991 8.99871 2.24991C8.96325 2.24991 8.9285 2.25983 8.89839 2.27854C8.86827 2.29724 8.84398 2.324 8.82827 2.35579L7.07721 5.90628C6.98293 6.09762 6.84347 6.26312 6.67088 6.38847C6.49829 6.51382 6.29777 6.59525 6.08665 6.62572L2.16771 7.19666C2.13256 7.20163 2.09951 7.21637 2.07233 7.23921C2.04515 7.26204 2.02492 7.29205 2.01396 7.32582C2.003 7.35958 2.00174 7.39575 2.01033 7.4302C2.01891 7.46464 2.037 7.49599 2.06252 7.52066L4.89865 10.2853C5.05106 10.4343 5.16507 10.618 5.2309 10.8207C5.29674 11.0234 5.31244 11.2391 5.27665 11.4492L4.60671 15.3529C4.60063 15.388 4.60452 15.4241 4.61794 15.457C4.63135 15.49 4.65375 15.5185 4.68259 15.5394C4.71143 15.5603 4.74554 15.5726 4.78106 15.5751C4.81657 15.5775 4.85205 15.5699 4.88346 15.5532L8.3884 13.7104C8.57709 13.611 8.78714 13.5591 9.0004 13.5591Z"
+                                                   fill="black" />
+                                             </svg>
+                                          </i>
+                                          <span
+                                             class="tp-product__tooltip tp-product__tooltip-right p-relative">Rattings</span>
+                                       </button>
+                                       <button>
+                                          <i>
+                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                   d="M6.86634 10.2L5.33301 11.7333V2.66667C5.33301 2.26667 5.06634 2 4.66634 2C4.26634 2 3.99967 2.26667 3.99967 2.66667V11.7333L2.46634 10.2C2.19967 9.93333 1.79967 9.93333 1.53301 10.2C1.26634 10.4667 1.26634 10.8667 1.53301 11.1333L4.19967 13.8C4.26634 13.8667 4.33301 13.9333 4.39967 13.9333C4.46634 14 4.59967 14 4.66634 14C4.73301 14 4.86634 14 4.93301 13.9333C4.99967 13.9333 5.06634 13.8667 5.13301 13.8L7.79967 11.1333C8.06634 10.8667 8.06634 10.4667 7.79967 10.2C7.53301 9.93333 7.13301 9.93333 6.86634 10.2ZM14.4663 4.86667L11.7997 2.2C11.733 2.13333 11.6663 2.06667 11.5997 2.06667C11.533 2 11.3997 2 11.333 2C11.2663 2 11.133 2 11.0663 2.06667C10.9997 2.06667 10.933 2.13333 10.8663 2.2L8.19967 4.86667C7.93301 5.13333 7.93301 5.53333 8.19967 5.8C8.46634 6.06667 8.86634 6.06667 9.13301 5.8L10.6663 4.26667V13.3333C10.6663 13.7333 10.933 14 11.333 14C11.733 14 11.9997 13.7333 11.9997 13.3333V4.26667L13.533 5.8C13.7997 6.06667 14.1997 6.06667 14.4663 5.8C14.733 5.53333 14.733 5.13333 14.4663 4.86667Z"
+                                                   fill="black" />
+                                             </svg>
+                                          </i>
+                                          <span class="tp-product__tooltip tp-product__tooltip-right p-relative">Add
+                                             To
+                                             Cart</span>
+                                       </button>
+                                    </div>
+                                    <div class="tp-product-content text-center">
+                                       <h4 class="tp-product-title"><a href="javascript:void(0)" class="text-anim">
+                                             Product 5</a></h4>
+                                       <span>$2362.00</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-12">
+                     <div class="tp-product-button text-center mt-70">
+                        <a href="javascript:void(0)" class="tp-btn-theme">View More Product</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- product area end -->
+
+
+      <!-- service area start -->
+      <div class="tp-service-area grey-bg pt-110 pb-90">
+         <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-xl-7">
+                  <div class="tp-service-title-box text-center mb-30">
+                     <span class="tp-section-subtitle">Services That Bring Joy to Your Life</span>
+                     <h4 class="tp-section-title">Trusted Glass Block Creations for Every Occasion</h4>
+                  </div>
+               </div>
+            </div>
+            <!-- <div class="row">
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30 wow tpfadeUp" data-wow-duration=".9s"
+                  data-wow-delay=".3s">
+                  <div class="tp-service-item text-center">
+                     <div class="tp-service-thumb mb-10">
+                        <img src="assets/img/service/serv1.jpg" alt="">
+                     </div>
+                     <div class="tp-service-content">
+                        <h4 class="tp-service-title mb-20"><a class="text-anim" href="javascript:void(0)">1.
+                              Personalized Photo <br>Glass Blocks</a></h4>
+                        <p class="pb-5">Glass Memories specializes in transforming your photos into elegant glass
+                           blocks, creating lasting keepsakes that capture life’s most meaningful moments.</p>
+                        <a href="javascript:void(0)">
+                           <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                 d="M12.8196 3.91928L8.95246 0.170443C8.89845 0.116755 8.83263 0.0738586 8.75922 0.044508C8.68582 0.0151575 8.60644 0 8.52619 0C8.44593 0 8.36655 0.0151575 8.29315 0.044508C8.21974 0.0738586 8.15392 0.116755 8.09991 0.170443C7.98632 0.283881 7.92342 0.431459 7.92342 0.584498C7.92342 0.737538 7.98632 0.88511 8.09991 0.998548L10.9355 3.74657H0.602604C0.438882 3.75732 0.285729 3.82372 0.173936 3.93243C0.0621433 4.04115 0 4.1841 0 4.33257C0 4.48103 0.0621433 4.62398 0.173936 4.73269C0.285729 4.8414 0.438882 4.90781 0.602604 4.91856H10.9338L8.09821 7.66812C7.98462 7.78156 7.92172 7.92913 7.92172 8.08217C7.92172 8.23521 7.98462 8.38278 8.09821 8.49622C8.15222 8.54991 8.21804 8.59281 8.29144 8.62216C8.36485 8.65151 8.44422 8.66667 8.52448 8.66667C8.60474 8.66667 8.68411 8.65151 8.75752 8.62216C8.83092 8.59281 8.89674 8.54991 8.95075 8.49622L12.8196 4.7551C12.9356 4.64121 13 4.49203 13 4.33719C13 4.18235 12.9356 4.03317 12.8196 3.91928Z"
+                                 fill="currentcolor" />
+                           </svg>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30 wow tpfadeUp" data-wow-duration=".9s"
+                  data-wow-delay=".5s">
+                  <div class="tp-service-item text-center">
+                     <div class="tp-service-thumb mb-10">
+                        <img src="assets/img/service/serv2.jpg" alt="">
+                     </div>
+                     <div class="tp-service-content">
+                        <h4 class="tp-service-title mb-20"><a class="text-anim" href="javascript:void(0)">2. Custom
+                              Design & <br> Logo Blocks</a></h4>
+                        <p class="pb-5">We craft bespoke glass blocks featuring your artwork, logo, or brand identity —
+                           a unique way to elevate corporate gifts, promotional items, or office décor.</p>
+                        <a href="javascript:void(0)">
+                           <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                 d="M12.8196 3.91928L8.95246 0.170443C8.89845 0.116755 8.83263 0.0738586 8.75922 0.044508C8.68582 0.0151575 8.60644 0 8.52619 0C8.44593 0 8.36655 0.0151575 8.29315 0.044508C8.21974 0.0738586 8.15392 0.116755 8.09991 0.170443C7.98632 0.283881 7.92342 0.431459 7.92342 0.584498C7.92342 0.737538 7.98632 0.88511 8.09991 0.998548L10.9355 3.74657H0.602604C0.438882 3.75732 0.285729 3.82372 0.173936 3.93243C0.0621433 4.04115 0 4.1841 0 4.33257C0 4.48103 0.0621433 4.62398 0.173936 4.73269C0.285729 4.8414 0.438882 4.90781 0.602604 4.91856H10.9338L8.09821 7.66812C7.98462 7.78156 7.92172 7.92913 7.92172 8.08217C7.92172 8.23521 7.98462 8.38278 8.09821 8.49622C8.15222 8.54991 8.21804 8.59281 8.29144 8.62216C8.36485 8.65151 8.44422 8.66667 8.52448 8.66667C8.60474 8.66667 8.68411 8.65151 8.75752 8.62216C8.83092 8.59281 8.89674 8.54991 8.95075 8.49622L12.8196 4.7551C12.9356 4.64121 13 4.49203 13 4.33719C13 4.18235 12.9356 4.03317 12.8196 3.91928Z"
+                                 fill="currentcolor" />
+                           </svg>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30 wow tpfadeUp" data-wow-duration=".9s"
+                  data-wow-delay=".7s">
+                  <div class="tp-service-item text-center">
+                     <div class="tp-service-thumb mb-10">
+                        <img src="assets/img/service/serv3.jpg" alt="">
+                     </div>
+                     <div class="tp-service-content">
+                        <h4 class="tp-service-title mb-20"><a class="text-anim" href="javascript:void(0)">3.
+                              Elegant Wall <br> Glass Designs </a></h4>
+                        <p class="pb-5">Custom wall glass designs that bring light, elegance, and sophistication,
+                           transforming homes, offices, and commercial spaces into truly captivating interiors.</p>
+                        <a href="javascript:void(0)">
+                           <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                 d="M12.8196 3.91928L8.95246 0.170443C8.89845 0.116755 8.83263 0.0738586 8.75922 0.044508C8.68582 0.0151575 8.60644 0 8.52619 0C8.44593 0 8.36655 0.0151575 8.29315 0.044508C8.21974 0.0738586 8.15392 0.116755 8.09991 0.170443C7.98632 0.283881 7.92342 0.431459 7.92342 0.584498C7.92342 0.737538 7.98632 0.88511 8.09991 0.998548L10.9355 3.74657H0.602604C0.438882 3.75732 0.285729 3.82372 0.173936 3.93243C0.0621433 4.04115 0 4.1841 0 4.33257C0 4.48103 0.0621433 4.62398 0.173936 4.73269C0.285729 4.8414 0.438882 4.90781 0.602604 4.91856H10.9338L8.09821 7.66812C7.98462 7.78156 7.92172 7.92913 7.92172 8.08217C7.92172 8.23521 7.98462 8.38278 8.09821 8.49622C8.15222 8.54991 8.21804 8.59281 8.29144 8.62216C8.36485 8.65151 8.44422 8.66667 8.52448 8.66667C8.60474 8.66667 8.68411 8.65151 8.75752 8.62216C8.83092 8.59281 8.89674 8.54991 8.95075 8.49622L12.8196 4.7551C12.9356 4.64121 13 4.49203 13 4.33719C13 4.18235 12.9356 4.03317 12.8196 3.91928Z"
+                                 fill="currentcolor" />
+                           </svg>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div> -->
+            <div class="row pb-50">
+               <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <div class="tp-service-item text-center">
+                           <div class="tp-service-thumb mb-10">
+                              <img src="assets/img/service/serv1.jpg" alt="">
+                           </div>
+                           <div class="tp-service-content">
+                              <h4 class="tp-service-title mb-20"><a class="text-anim" href="javascript:void(0)">1.
+                                    Personalized Photo <br>Glass Blocks</a></h4>
+                              <p class="pb-5">Glass Memories specializes in transforming your photos into elegant glass
+                                 blocks, creating lasting keepsakes that capture life’s most meaningful moments.</p>
+                              <a href="javascript:void(0)">
+                                 <svg width="13" height="9" viewBox="0 0 13 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M12.8196 3.91928L8.95246 0.170443C8.89845 0.116755 8.83263 0.0738586 8.75922 0.044508C8.68582 0.0151575 8.60644 0 8.52619 0C8.44593 0 8.36655 0.0151575 8.29315 0.044508C8.21974 0.0738586 8.15392 0.116755 8.09991 0.170443C7.98632 0.283881 7.92342 0.431459 7.92342 0.584498C7.92342 0.737538 7.98632 0.88511 8.09991 0.998548L10.9355 3.74657H0.602604C0.438882 3.75732 0.285729 3.82372 0.173936 3.93243C0.0621433 4.04115 0 4.1841 0 4.33257C0 4.48103 0.0621433 4.62398 0.173936 4.73269C0.285729 4.8414 0.438882 4.90781 0.602604 4.91856H10.9338L8.09821 7.66812C7.98462 7.78156 7.92172 7.92913 7.92172 8.08217C7.92172 8.23521 7.98462 8.38278 8.09821 8.49622C8.15222 8.54991 8.21804 8.59281 8.29144 8.62216C8.36485 8.65151 8.44422 8.66667 8.52448 8.66667C8.60474 8.66667 8.68411 8.65151 8.75752 8.62216C8.83092 8.59281 8.89674 8.54991 8.95075 8.49622L12.8196 4.7551C12.9356 4.64121 13 4.49203 13 4.33719C13 4.18235 12.9356 4.03317 12.8196 3.91928Z"
+                                       fill="currentcolor" />
+                                 </svg>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="tp-service-item text-center">
+                           <div class="tp-service-thumb mb-10">
+                              <img src="assets/img/service/serv2.jpg" alt="">
+                           </div>
+                           <div class="tp-service-content">
+                              <h4 class="tp-service-title mb-20"><a class="text-anim" href="javascript:void(0)">2.
+                                    Custom
+                                    Design & <br> Logo Blocks</a></h4>
+                              <p class="pb-5">We craft bespoke glass blocks featuring your artwork, logo, or brand
+                                 identity —
+                                 a unique way to elevate corporate gifts, promotional items, or office décor.</p>
+                              <a href="javascript:void(0)">
+                                 <svg width="13" height="9" viewBox="0 0 13 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M12.8196 3.91928L8.95246 0.170443C8.89845 0.116755 8.83263 0.0738586 8.75922 0.044508C8.68582 0.0151575 8.60644 0 8.52619 0C8.44593 0 8.36655 0.0151575 8.29315 0.044508C8.21974 0.0738586 8.15392 0.116755 8.09991 0.170443C7.98632 0.283881 7.92342 0.431459 7.92342 0.584498C7.92342 0.737538 7.98632 0.88511 8.09991 0.998548L10.9355 3.74657H0.602604C0.438882 3.75732 0.285729 3.82372 0.173936 3.93243C0.0621433 4.04115 0 4.1841 0 4.33257C0 4.48103 0.0621433 4.62398 0.173936 4.73269C0.285729 4.8414 0.438882 4.90781 0.602604 4.91856H10.9338L8.09821 7.66812C7.98462 7.78156 7.92172 7.92913 7.92172 8.08217C7.92172 8.23521 7.98462 8.38278 8.09821 8.49622C8.15222 8.54991 8.21804 8.59281 8.29144 8.62216C8.36485 8.65151 8.44422 8.66667 8.52448 8.66667C8.60474 8.66667 8.68411 8.65151 8.75752 8.62216C8.83092 8.59281 8.89674 8.54991 8.95075 8.49622L12.8196 4.7551C12.9356 4.64121 13 4.49203 13 4.33719C13 4.18235 12.9356 4.03317 12.8196 3.91928Z"
+                                       fill="currentcolor" />
+                                 </svg>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="tp-service-item text-center">
+                           <div class="tp-service-thumb mb-10">
+                              <img src="assets/img/service/serv5.jpg" alt="">
+                           </div>
+                           <div class="tp-service-content">
+                              <h4 class="tp-service-title mb-20"><a class="text-anim" href="javascript:void(0)">3.
+                                    Elegant Wall <br> Glass Designs </a></h4>
+                              <p class="pb-5">Custom wall glass designs that bring light, elegance, and sophistication,
+                                 transforming homes, offices, and commercial spaces into truly captivating interiors.
+                              </p>
+                              <a href="javascript:void(0)">
+                                 <svg width="13" height="9" viewBox="0 0 13 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M12.8196 3.91928L8.95246 0.170443C8.89845 0.116755 8.83263 0.0738586 8.75922 0.044508C8.68582 0.0151575 8.60644 0 8.52619 0C8.44593 0 8.36655 0.0151575 8.29315 0.044508C8.21974 0.0738586 8.15392 0.116755 8.09991 0.170443C7.98632 0.283881 7.92342 0.431459 7.92342 0.584498C7.92342 0.737538 7.98632 0.88511 8.09991 0.998548L10.9355 3.74657H0.602604C0.438882 3.75732 0.285729 3.82372 0.173936 3.93243C0.0621433 4.04115 0 4.1841 0 4.33257C0 4.48103 0.0621433 4.62398 0.173936 4.73269C0.285729 4.8414 0.438882 4.90781 0.602604 4.91856H10.9338L8.09821 7.66812C7.98462 7.78156 7.92172 7.92913 7.92172 8.08217C7.92172 8.23521 7.98462 8.38278 8.09821 8.49622C8.15222 8.54991 8.21804 8.59281 8.29144 8.62216C8.36485 8.65151 8.44422 8.66667 8.52448 8.66667C8.60474 8.66667 8.68411 8.65151 8.75752 8.62216C8.83092 8.59281 8.89674 8.54991 8.95075 8.49622L12.8196 4.7551C12.9356 4.64121 13 4.49203 13 4.33719C13 4.18235 12.9356 4.03317 12.8196 3.91928Z"
+                                       fill="currentcolor" />
+                                 </svg>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="tp-service-item text-center">
+                           <div class="tp-service-thumb mb-10">
+                              <img src="assets/img/service/serv4.jpg" alt="">
+                           </div>
+                           <div class="tp-service-content">
+                              <h4 class="tp-service-title mb-20"><a class="text-anim" href="javascript:void(0)">4.
+                                    Special Occasion <br>Blocks</a></h4>
+                              <p class="pb-5">We create custom glass blocks to celebrate weddings, anniversaries,
+                                 birthdays, and milestones — a lasting way to honor life’s moments with elegance and
+                                 style.</p>
+                              <a href="javascript:void(0)">
+                                 <svg width="13" height="9" viewBox="0 0 13 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M12.8196 3.91928L8.95246 0.170443C8.89845 0.116755 8.83263 0.0738586 8.75922 0.044508C8.68582 0.0151575 8.60644 0 8.52619 0C8.44593 0 8.36655 0.0151575 8.29315 0.044508C8.21974 0.0738586 8.15392 0.116755 8.09991 0.170443C7.98632 0.283881 7.92342 0.431459 7.92342 0.584498C7.92342 0.737538 7.98632 0.88511 8.09991 0.998548L10.9355 3.74657H0.602604C0.438882 3.75732 0.285729 3.82372 0.173936 3.93243C0.0621433 4.04115 0 4.1841 0 4.33257C0 4.48103 0.0621433 4.62398 0.173936 4.73269C0.285729 4.8414 0.438882 4.90781 0.602604 4.91856H10.9338L8.09821 7.66812C7.98462 7.78156 7.92172 7.92913 7.92172 8.08217C7.92172 8.23521 7.98462 8.38278 8.09821 8.49622C8.15222 8.54991 8.21804 8.59281 8.29144 8.62216C8.36485 8.65151 8.44422 8.66667 8.52448 8.66667C8.60474 8.66667 8.68411 8.65151 8.75752 8.62216C8.83092 8.59281 8.89674 8.54991 8.95075 8.49622L12.8196 4.7551C12.9356 4.64121 13 4.49203 13 4.33719C13 4.18235 12.9356 4.03317 12.8196 3.91928Z"
+                                       fill="currentcolor" />
+                                 </svg>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+
+                     <!-- <div class="swiper-pagination"></div> -->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- service area end -->
+
+      <!-- video area start -->
+      <div class="tp-video-area">
+         <div class="container-fluid p-0">
+            <div class="row gx-0">
+               <div class="col-xl-12">
+                  <div class="tp-video-box p-relative">
+                     <div class="tp-video-thumb">
+                        <img src="assets/img/video/engraved.jpeg" alt="">
+                     </div>
+                     <div class="tp-video-play-button">
+                        <a class="popup-video" href="https://www.youtube.com/watch?v=vgqG1yzR8z0">Play</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- video area end -->
+
+      <!-- funfact area start -->
+      <div class="tp-funfact-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-12">
+                  <div class="tp-funfact-wrap d-flex align-items-center justify-content-between z-index">
+                     <div class="tp-funfact-item text-center">
+                        <span>Offices</span>
+                        <h5 class="tp-funfact-number"><i class="purecounter" data-purecounter-duration="1"
+                              data-purecounter-end="103">0</i>+</h5>
+                     </div>
+                     <div class="tp-funfact-item text-center">
+                        <span>Happy Clients</span>
+                        <h5 class="tp-funfact-number"><i class="purecounter" data-purecounter-duration="1"
+                              data-purecounter-end="1538">0</i></h5>
+                     </div>
+                     <div class="tp-funfact-item text-center">
+                        <span>Years</span>
+                        <h5 class="tp-funfact-number"><i class="purecounter" data-purecounter-duration="1"
+                              data-purecounter-end="28">0</i>+</h5>
+                     </div>
+                     <div class="tp-funfact-item text-center">
+                        <span>Projects</span>
+                        <h5 class="tp-funfact-number"><i class="purecounter" data-purecounter-duration="1"
+                              data-purecounter-end="386">0</i>+</h5>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- funfact area end -->
+
+
+
+      <!-- project area start -->
+      <div class="tp-project-2-area tp-project-2-bg fix pt-120 bg-white">
+         <div class="tp-project-2-title-box mb-50">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-xl-8 col-md-7">
+                     <div class="tp-project-2-title-box">
+                        <span class="tp-section-subtitle text-white">Our Gallery</span>
+                        <h4 class="tp-section-title text-white">Our Custom Glass <br>Creations Showcase</h4>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-md-5">
+                     <div class="tp-project-2-button text-md-end">
+                        <a class="tp-btn-theme hover-2" href="javascript:void(0)"><span>More Projects</span></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid p-0">
+            <div class="row gx-0">
+               <div class="col-xl-3 col-lg-12 custom-colum-1">
+                  <div class="tp-project-2-item tp-project-thumb-box p-relative">
+                     <img src="assets/img/service/pro1-1.jpg" alt="">
+                     <div class="tp-project-action z-index-2">
+                        <a href="javascript:;">View Project</a>
+                     </div>
+                     <div class="tp-project-2-content">
+                        <h4 class="tp-project-2-title text-anim-2"><a href="javascript:;">Engraved Blocks</a></h4>
+                        <span>Art</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-6 col-lg-12 custom-colum-2">
+                  <div class="tp-project-2-item tp-project-thumb-box p-relative">
+                     <img src="assets/img/service/pro2-2.jpg" alt="">
+                     <div class="tp-project-action z-index-2">
+                        <a href="javascript:;">View Project</a>
+                     </div>
+                     <div class="tp-project-2-content">
+                        <h4 class="tp-project-2-title text-anim-2"><a href="javascript:;">3D Laser Engraved
+                              Blocks</a></h4>
+                        <span>Art </span>
+                     </div>
+                  </div>
+                  <div class="tp-project-2-item tp-project-thumb-box p-relative">
+                     <img src="assets/img/service/pro3.jpg" alt="">
+                     <div class="tp-project-action z-index-2">
+                        <a href="javascript:;">View Project</a>
+                     </div>
+                     <div class="tp-project-2-content">
+                        <h4 class="tp-project-2-title text-anim-2"><a href="javascript:;">Engraved Wall Design</a>
+                        </h4>
+                        <span>Art </span>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-12 custom-colum-1">
+                  <div class="tp-project-2-item tp-project-thumb-box p-relative">
+                     <img src="assets/img/service/pro4.png" alt="">
+                     <div class="tp-project-action z-index-2">
+                        <a href="javascript:;">View Project</a>
+                     </div>
+                     <div class="tp-project-2-content">
+                        <h4 class="tp-project-2-title text-anim-2"><a href="javascript:;">Wall Art </a></h4>
+                        <span>Art</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- project area end -->
+
+      <!-- project area start -->
+      <!-- <div class="tp-project-area fix pt-120 pb-90">
+            <div class="container">
+               <div class="row justify-content-center">
+                  <div class="col-xl-8 col-lg-8">
+                     <div class="tp-service-title-box text-center mb-45">
+                        <span class="tp-section-subtitle">Client’s Work Portfolio</span>
+                        <h4 class="tp-section-title">The Greatest Work Showcase
+                           For Our Client’s</h4>
+                     </div>
+                  </div>
+               </div>
+               <div class="row align-items-start gx-45">
+                  <div class="col-xl-6 col-lg-6 col-md-6 mb-30  wow tpfadeLeft" data-wow-duration=".9s"
+                     data-wow-delay=".5s">
+                     <div class="tp-project-left">
+                        <div class="tp-project-item">
+                           <h4 class="tp-project-title"><a class="text-anim" href="project-details.html">1. Front
+                                 Doors</a>
+                           </h4>
+                           <div class="tp-project-thumb-box p-relative">
+                              <div class="tp-project-thumb">
+                                 <img src="assets/img/project/project-1-1.jpg" alt="">
+                              </div>
+                              <div class="tp-project-action">
+                                 <a href="project-details.html">View Project</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-md-6 mb-30  wow tpfadeRight" data-wow-duration=".9s"
+                     data-wow-delay=".7s">
+                     <div class="tp-project-right">
+                        <div class="tp-project-item">
+                           <div class="tp-project-thumb-box mb-20 p-relative">
+                              <div class="tp-project-thumb">
+                                 <img src="assets/img/project/project-1-2.jpg" alt="">
+                              </div>
+                              <div class="tp-project-action">
+                                 <a href="project-details.html">View Project</a>
+                              </div>
+                           </div>
+                           <h4 class="tp-project-title mb-0">
+                              <a class="text-anim" href="project-details.html">2. Office Windows</a>
+                           </h4>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-12">
+                     <div class="tp-project-button text-center">
+                        <a class="tp-btn-border" href="project-classic.html"><span>View More Project</span></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div> -->
+      <!-- project area end -->
+
+      <!-- testimonial area start -->
+      <div class="tp-testimonial-area fix grey-bg pt-110 pb-120">
+         <div class="container-fluid p-0">
+            <div class="row">
+               <div class="col-xl-12">
+                  <div class="tp-service-title-box text-center mb-35">
+                     <span class="tp-section-subtitle">Trusted Client’s feedback</span>
+                     <h4 class="tp-section-title">Clients' Testimonials</h4>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xl-12">
+                  <div class="tp-testimonial-slider-wrap tp-cursor-point-area p-relative">
+                     <div class="swiper-container tp-testimonial-active">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide">
+                              <div class="tp-testimonial-item text-center p-relative">
+                                 <div class="tp-testimonial-avata">
+                                    <img src="assets/img/avatar/user-1.png" alt="">
+                                 </div>
+                                 <div class="tp-testimonial-content">
+                                    <div class="tp-testimonial-ratting mb-5">
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="tp-testimonial-text">
+                                       <p>The custom glass block we ordered for our anniversary was absolutely
+                                          stunning. The photo engraving was so clear, and it has become the
+                                          centerpiece of our living room</p>
+                                    </div>
+                                    <div class="tp-testimonial-author-info">
+                                       <h5 class="tp-testimonial-author-name">James M </h5>
+                                       <span>CEO, Business Co</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tp-testimonial-item text-center p-relative">
+                                 <div class="tp-testimonial-avata">
+                                    <img src="assets/img/avatar/testimonial-1-1.png" alt="">
+                                 </div>
+                                 <div class="tp-testimonial-content">
+                                    <div class="tp-testimonial-ratting mb-5">
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="tp-testimonial-text">
+                                       <p>We had our company logo engraved on glass blocks as gifts for our partners.
+                                          The quality and attention to detail were outstanding — truly elevated our
+                                          brand presentation</p>
+                                    </div>
+                                    <div class="tp-testimonial-author-info">
+                                       <h5 class="tp-testimonial-author-name">Michael R.</h5>
+                                       <span>Product Manager</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tp-testimonial-item text-center p-relative">
+                                 <div class="tp-testimonial-avata">
+                                    <img src="assets/img/avatar/testimonial-1-3.png" alt="">
+                                 </div>
+                                 <div class="tp-testimonial-content">
+                                    <div class="tp-testimonial-ratting mb-5">
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="tp-testimonial-text">
+                                       <p>I ordered a memorial glass block with a photo of my father. It’s beautiful,
+                                          durable, and such a meaningful keepsake for our family.</p>
+                                    </div>
+                                    <div class="tp-testimonial-author-info">
+                                       <h5 class="tp-testimonial-author-name">Emma L</h5>
+                                       <span>Corporate Client</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tp-testimonial-item text-center p-relative">
+                                 <div class="tp-testimonial-avata">
+                                    <img src="assets/img/avatar/testimonial-1-4.png" alt="">
+                                 </div>
+                                 <div class="tp-testimonial-content">
+                                    <div class="tp-testimonial-ratting mb-5">
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="tp-testimonial-text">
+                                       <p>The craftsmanship is top-notch! Our wedding date and photo were engraved
+                                          perfectly, and it’s something we’ll treasure forever.</p>
+                                    </div>
+                                    <div class="tp-testimonial-author-info">
+                                       <h5 class="tp-testimonial-author-name">David & Anna W.</h5>
+                                       <span>Business Owners</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- testimonial area end -->
+
+      <!-- blog area start -->
+      <div class="tp-blog-area pt-110 pb-120">
+         <div class="container">
+            <div class="tp-blog-title-wrap mb-50">
+               <div class="row align-items-end">
+                  <div class="col-xl-6 col-lg-6 col-md-8">
+                     <div class="tp-blog-title-box">
+                        <span class="tp-section-subtitle">News & Blog</span>
+                        <h4 class="tp-section-title">Leates News & Blog</h4>
+                     </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-md-4">
+                     <div class="tp-blog-button text-md-end">
+                        <a class="tp-btn-theme" href="javascript:void(0)"><span>More News & Blog</span></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xl-4 col-lg-4 col-md-6 mb-30  wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
+                  <div class="tp-blog-item">
+                     <div class="tp-blog-thumb fix p-relative mb-35">
+                        <a href="javascript:void(0)">
+                           <img src="assets/img/blog/blog4.webp" alt="">
+                        </a>
+                        <div class="tp-blog-tag">
+                           <span>By: Glass Memories</span>
+                        </div>
+                     </div>
+                     <div class="tp-blog-content">
+                        <h4 class="tp-blog-title mb-25">
+                           <a class="text-anim" href="javascript:void(0)">Capture life’s special moments with our custom
+                              glass blocks — perfect for décor, gifts, and keepsakes.</a>
+                        </h4>
+                        <div class="tp-blog-meta d-flex align-items-center mb-50">
+                           <span>02 Apr 2024</span>
+                           <span>Comments (03)</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-6 mb-30  wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
+                  <div class="tp-blog-item">
+                     <div class="tp-blog-thumb p-relative fix mb-35">
+                        <a href="javascript:void(0)">
+                           <img src="assets/img/blog/blog2.jpg" alt="">
+                        </a>
+                        <div class="tp-blog-tag">
+                           <span>By: Glass Memories</span>
+                        </div>
+                     </div>
+                     <div class="tp-blog-content">
+                        <h4 class="tp-blog-title mb-25">
+                           <a class="text-anim" href="javascript:void(0)">Honor loved ones with elegant memorial glass
+                              blocks — a lasting tribute in timeless glass.</a>
+                        </h4>
+                        <div class="tp-blog-meta d-flex align-items-center mb-50">
+                           <span>20 June 2025</span>
+                           <span>Comments (03)</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-6 mb-30  wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
+                  <div class="tp-blog-item">
+                     <div class="tp-blog-thumb p-relative fix mb-35">
+                        <a href="javascript:void(0)">
+                           <img src="assets/img/blog/blog1.jpg" alt="">
+                        </a>
+                        <div class="tp-blog-tag">
+                           <span>By: Glass Memories</span>
+                        </div>
+                     </div>
+                     <div class="tp-blog-content">
+                        <h4 class="tp-blog-title mb-25">
+                           <a class="text-anim" href="javascript:void(0)">From weddings to branding, our personalized
+                              glass blocks make every occasion memorable.</a>
+                        </h4>
+                        <div class="tp-blog-meta d-flex align-items-center mb-50">
+                           <span>18 Apr 2023</span>
+                           <span>Comments (03)</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- blog area end -->
+
+      <!-- cta area start-->
+      <div class="tp-cta-area tp-cta-border black-bg-2 pt-10">
+         <div class="container">
+            <div class="tp-cta-content p-relative text-center fix">
+               <div class="tp-scroll-hr">
+                  <div class="tp-scroll-wrap">
+                     <h3 class="tp-cta-title">Schedule a Free Consultation for Your Custom Glass Memories Design</h3>
+                  </div>
+               </div>
+               <div class="get-schedule">
+                  <a class="wow zoomIn" data-wow-duration=".8s" data-wow-delay=".5s"
+                     href="javascript:void(0)">Get<br>Schedule
+                     Now</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- cta area end-->
+
+   </main>
+
+   <footer>
+
+      <!-- footer area start -->
+      <div class="tp-footer-area black-bg-2 pt-85 pb-100">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-50  wow tpfadeUp" data-wow-duration=".9s"
+                  data-wow-delay=".3s">
+                  <div class="tp-footer-widget footer-col-1">
+                     <div class="tp-footer-logo pb-30">
+                        <a href="index.html">
+                           <!-- <img src="assets/img/logo/logo-white.png" alt=""> -->
+                           Glass Memories
+                        </a>
+                     </div>
+                     <div class="tp-footer-text">
+                        <p>Glass Memories is a custom glass block studio specializing in personalized décor, gifts, and
+                           memorials. </p>
+                     </div>
+                     <div class="tp-footer-social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-vimeo-v"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-50  wow tpfadeUp" data-wow-duration=".9s"
+                  data-wow-delay=".5s">
+                  <div class="tp-footer-widget footer-col-2">
+                     <h4 class="tp-footer-title">Our Links</h4>
+                     <div class="tp-footer-list">
+                        <ul>
+                           <li><a href="#">Features</a></li>
+                           <li><a href="#">Team Member</a></li>
+                           <li><a href="#">Our Careers</a></li>
+                           <li><a href="#">Login Here</a></li>
+                           <li><a href="#">Registered</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-50  wow tpfadeUp" data-wow-duration=".9s"
+                  data-wow-delay=".7s">
+                  <div class="tp-footer-widget footer-col-3">
+                     <h4 class="tp-footer-title">Find It Fast</h4>
+                     <div class="tp-footer-list">
+                        <ul>
+                           <li><a href="#">Home</a></li>
+                           <li><a href="#">Services</a></li>
+                           <li><a href="#">About Us</a></li>
+                           <li><a href="#">Features</a></li>
+                           <li><a href="#">Contacts</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-50  wow tpfadeUp" data-wow-duration=".9s"
+                  data-wow-delay=".9s">
+                  <div class="tp-footer-widget footer-col-4">
+                     <div class="tp-footer-contact">
+                        <span>
+                           <a class="text-anim-2" target="_blank" href="#">New South Head
+                              Rd, Double Bay
+                              NSW 2028, New York</a>
+                        </span>
+                        <span class="mb-20 mt-30">
+                           <a class="text-anim-2 text-anim-2" href="mailto:contact@glassroom.com">
+                              contact@glassroom.com
+                           </a>
+                        </span>
+                        <span>
+                           <a class="text-anim-2" href="tel:+1300877503">+123456789</a>
+                        </span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- footer area end -->
+
+      <!-- copy-right area start -->
+      <div class="tp-copyright-area black-bg-2">
+         <div class="container">
+            <div class="tp-copyright-border tp-copyright-ptb">
+               <div class="row align-items-center">
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-12 wow tpfadeUp" data-wow-duration=".9s"
+                     data-wow-delay=".3s">
+                     <div class="tp-copyright-left text-center text-md-start">
+                        <p>Copyright © 2025 Design and Develop By <a href="https://thevisionbrands.com/">The Vision
+                              Brands.</a></p>
+                     </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-12 wow tpfadeUp" data-wow-duration=".9s"
+                     data-wow-delay=".5s">
+                     <div class="tp-copyright-right text-center text-md-end">
+                        <a href="#">Style Guide</a>
+                        <a href="#">Licensing </a>
+                        <a href="#">Instruction</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- copy-right area end -->
+
+   </footer>
+
+   <!-- JS here -->
+   <script src="assets/js/vendor/jquery.js"></script>
+   <script src="assets/js/vendor/waypoints.js"></script>
+   <script src="assets/js/bootstrap-bundle.js"></script>
+   <script src="assets/js/ajax-form.js"></script>
+   <script src="assets/js/imagesloaded-pkgd.js"></script>
+   <script src="assets/js/isotope-pkgd.js"></script>
+   <script src="assets/js/jarallax.js"></script>
+   <script src="assets/js/countdown.js"></script>
+   <script src="assets/js/magnific-popup.js"></script>
+   <script src="assets/js/nice-select.js"></script>
+   <script src="assets/js/purecounter.js"></script>
+   <script src="assets/js/range-slider.js"></script>
+   <script src="assets/js/wow.js"></script>
+   <script src="assets/js/slick.js"></script>
+   <script src="assets/js/swiper-bundle.js"></script>
+   <script src="assets/js/main.js"></script>
+   <script>
+      var swiper = new Swiper(".mySwiper", {
+         slidesPerView: 3,
+         spaceBetween: 30,
+         loop: true,
+         // centeredSlides: true,
+         breakpoints: {
+            0: {
+               slidesPerView: 1,
+            },
+            576: {
+               slidesPerView: 1,
+            },
+            768: {
+               slidesPerView: 2,
+            },
+            992: {
+               slidesPerView: 2,
+            },
+            1200: {
+               slidesPerView: 3,
+            },
+         },
+         pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+         },
+         autoplay: {
+            delay: 5000,
+         },
+      });
+   </script>
+   <script src="https://cdn.lordicon.com/lordicon.js"></script>
+</body>
+
+</html>
