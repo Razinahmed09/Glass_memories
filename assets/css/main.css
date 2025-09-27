@@ -3014,6 +3014,9 @@ div.demo img {
   margin-left: 10px;
   transition: 0.3s;
 }
+
+
+
 .tpoffcanvas__contact-info ul li a:hover {
   color: var(--tp-theme-1);
 }
@@ -3104,6 +3107,19 @@ div.demo img {
 .breadcrumb__height {
   height: 347px;
 }
+
+.aboutBanner {
+  background-image: url('/assets/img/slider/about-banner.jpeg');
+  background-size: cover;
+  background-position: bottom;
+}
+
+.contact_banner {
+    background-image: url('/assets/img/slider/contact.jpeg');
+  background-size: cover;
+  /* background-position: bottom; */
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .breadcrumb__height {
     height: 320px;
@@ -3120,6 +3136,12 @@ div.demo img {
   text-transform: capitalize;
   margin-bottom: 0;
   line-height: 1;
+}
+.contact_banner .breadcrumb__list span{
+    color: white;
+}
+.contact_banner .breadcrumb__title {
+    color: white;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .breadcrumb__title {
@@ -10989,6 +11011,10 @@ body .ui-tooltip {
   display: block;
   line-height: 1.25;
   color: var(--tp-common-black-3);
+}
+
+.headingSec .tp-cta-text span {
+      font-size: 100px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-cta-text span {

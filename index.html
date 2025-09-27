@@ -1376,115 +1376,15 @@
 
    </main>
 
-   <footer>
-
-      <!-- footer area start -->
-      <div class="tp-footer-area black-bg-2 pt-85 pb-100">
-         <div class="container">
-            <div class="row">
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-50  wow tpfadeUp" data-wow-duration=".9s"
-                  data-wow-delay=".3s">
-                  <div class="tp-footer-widget footer-col-1">
-                     <div class="tp-footer-logo pb-30">
-                        <a href="index.html">
-                           <!-- <img src="assets/img/logo/logo-white.png" alt=""> -->
-                           Glass Memories
-                        </a>
-                     </div>
-                     <div class="tp-footer-text">
-                        <p>Glass Memories is a custom glass block studio specializing in personalized décor, gifts, and
-                           memorials. </p>
-                     </div>
-                     <div class="tp-footer-social">
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-vimeo-v"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-50  wow tpfadeUp" data-wow-duration=".9s"
-                  data-wow-delay=".5s">
-                  <div class="tp-footer-widget footer-col-2">
-                     <h4 class="tp-footer-title">Our Links</h4>
-                     <div class="tp-footer-list">
-                        <ul>
-                           <li><a href="#">Features</a></li>
-                           <li><a href="#">Team Member</a></li>
-                           <li><a href="#">Our Careers</a></li>
-                           <li><a href="#">Login Here</a></li>
-                           <li><a href="#">Registered</a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-50  wow tpfadeUp" data-wow-duration=".9s"
-                  data-wow-delay=".7s">
-                  <div class="tp-footer-widget footer-col-3">
-                     <h4 class="tp-footer-title">Find It Fast</h4>
-                     <div class="tp-footer-list">
-                        <ul>
-                           <li><a href="#">Home</a></li>
-                           <li><a href="#">Services</a></li>
-                           <li><a href="#">About Us</a></li>
-                           <li><a href="#">Features</a></li>
-                           <li><a href="#">Contacts</a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-50  wow tpfadeUp" data-wow-duration=".9s"
-                  data-wow-delay=".9s">
-                  <div class="tp-footer-widget footer-col-4">
-                     <div class="tp-footer-contact">
-                        <span>
-                           <a class="text-anim-2" target="_blank" href="#">New South Head
-                              Rd, Double Bay
-                              NSW 2028, New York</a>
-                        </span>
-                        <span class="mb-20 mt-30">
-                           <a class="text-anim-2 text-anim-2" href="mailto:contact@glassroom.com">
-                              contact@glassroom.com
-                           </a>
-                        </span>
-                        <span>
-                           <a class="text-anim-2" href="tel:+1300877503">+123456789</a>
-                        </span>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- footer area end -->
-
-      <!-- copy-right area start -->
-      <div class="tp-copyright-area black-bg-2">
-         <div class="container">
-            <div class="tp-copyright-border tp-copyright-ptb">
-               <div class="row align-items-center">
-                  <div class="col-xl-6 col-lg-6 col-md-6 col-12 wow tpfadeUp" data-wow-duration=".9s"
-                     data-wow-delay=".3s">
-                     <div class="tp-copyright-left text-center text-md-start">
-                        <p>Copyright © 2025 Design and Develop By <a href="https://thevisionbrands.com/">The Vision
-                              Brands.</a></p>
-                     </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-6 col-md-6 col-12 wow tpfadeUp" data-wow-duration=".9s"
-                     data-wow-delay=".5s">
-                     <div class="tp-copyright-right text-center text-md-end">
-                        <a href="#">Style Guide</a>
-                        <a href="#">Licensing </a>
-                        <a href="#">Instruction</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- copy-right area end -->
-
-   </footer>
+   <div id="footer-container"></div>
+   <script>
+      // Load navbar
+      fetch('footer.html')
+         .then(response => response.text())
+         .then(data => {
+            document.getElementById('footer-container').innerHTML = data;
+         });
+   </script>
 
    <!-- JS here -->
    <script src="assets/js/vendor/jquery.js"></script>
